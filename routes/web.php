@@ -11,10 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-//登录路由
-Route::get('/login',function(){
-	return view('login');
-});
+
+//后台首页
+Route::resource("admins","Admin\AdminsController");
+//后台无线分类
+Route::resource("admincate","Admin\CateController");
+//后台管理员
+Route::resource("adminsuser","Admin\AdminUserController");
+//后台会员
+Route::resource("adminuser","Admin\UserController");
+//后台商品
+Route::resource("/adminshop","Admin\ShopController");
