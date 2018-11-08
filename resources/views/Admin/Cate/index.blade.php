@@ -31,11 +31,15 @@
         <td class=" ">2</td> 
         <td class=" ">3</td> 
         <td class=" ">4</td>  
-        <td class=" "><form action="/admincate" method="post">
-                      <button class="btn btn-danger">删除</button>
+        <td class=" " style="width:280px"><form action="/admincate" method="post">
+                      <a href="" class="btn btn-warning">添加子分类</a> 
+                      <a href="" class="btn btn-link">查看子分类</a> 
+                      <a class="btn btn-danger">删除</a>
                       {{csrf_field()}}
                       {{method_field("DELETE")}}
-                      </form><a href="/admincate" class="btn btn-info">修改</a></td> 
+                      <a href="/admincate" class="btn btn-info">修改</a>
+                      </form>
+                      </td>
        </tr>
       
       </tbody>

@@ -19,7 +19,7 @@
                           <div class="mws-form-row">
                             <label class="mws-form-label">用户名</label>
                             <div class="mws-form-item">
-                              <input type="text" class="large" name="username" {{old('username')}}>
+                              <input type="text" class="large" name="name" {{old('name')}}>
                             </div>
                           </div>
                           <div class="mws-form-row">
@@ -32,12 +32,6 @@
                             <label class="mws-form-label">确认密码</label>
                             <div class="mws-form-item">
                               <input type="password" class="large" name="repassword">
-                            </div>
-                          </div>
-                          <div class="mws-form-row">
-                            <label class="mws-form-label">邮箱</label>
-                            <div class="mws-form-item">
-                              <input type="text" class="large" name="email" {{old('email')}}>
                             </div>
                           </div>
                           <div class="mws-form-row">

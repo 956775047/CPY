@@ -20,5 +20,8 @@ Route::resource("admincate","Admin\CateController");
 Route::resource("adminsuser","Admin\AdminUserController");
 //后台会员
 Route::resource("adminuser","Admin\UserController");
+//Ajax删除
+Route::get("/del","Admin\UserController@del");
 //后台商品
 Route::resource("/adminshop","Admin\ShopController");
+
