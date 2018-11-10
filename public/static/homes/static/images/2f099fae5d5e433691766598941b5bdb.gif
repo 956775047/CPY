@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>对不起，您访问的页面不存在！ - 华强北商城</title>
+	<link rel="stylesheet" href="http://s2.hqbcdn.com/??assets/v4/css/base.css,assets/v4/css/public.css" />
+	<link rel="stylesheet" href="http://s.hqbcdn.com/assets/v4/css/errors/errorpage.css?t=2015092628383">
+    <meta name="keywords" content="手机,数码,电脑,配件,huaqiangbei,平板电脑,华强北商城,华强北在线,深圳华强北,配件,苹果产品" />
+	<meta name="description" content="华强北商城（okhqb.com）是华南地区专业的手机数码网上购物商城。华强北商城所销产品包括手机,数码,相机,笔记本,电脑,上网本,配件,苹果系列产品等,坐拥深圳华强北商业圈，拥有一手价格绝对优势,承诺全场正品低价,及时发货,便捷诚信，配送到家！" />
+	<style> 
+		.gb-okhqb-jd a{height:80px;}
+	</style>
+</head>
+<body>
+	<div class="error_wrap"> 
+		<div class="header_logo">
+			<div class="area cfix">
+				<h1 class="logo">
+					<a href="http://www.okhqb.com/">华强北商城</a>
+				</h1>
+				<span class="header_freight">全场运费5元，满59元包邮</span>
+			</div>
+		</div>		
+		<div class="error_bd error404"> 
+			<p class="error_tips">神马？页面被外星人劫持了...</p>
+		</div>
+		<div class="error_ft area_ft"> 
+			<ul class="quickAccess cfix">
+				<li>
+					<a href="http://www.okhqb.com" >
+						<em class="homepage"></em>
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.okhqb.com/shouji.html?utml=dh_shoujihui" >
+						<em class="goodphones"></em>
+						<p>精选手机</p>
+					</a>
+				</li>
+				<li> 
+					<a href="http://www.okhqb.com/haiwai.html?utml=dh_haiwai">
+						<em class="tablets"></em>
+						<p>平板/笔记本</p>
+					</a>
+				</li>
+				<li class="last"> 
+					<a href="http://www.okhqb.com/shuma.html?utml=dh_shuma" >
+						<em class="parts"></em>
+						<p>数码配件</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="okhqb-footer-gb" >
+    <!-- <div class="gb-title"></div> -->
+    <div class="gb-content-wrap">
+        <div class="gb-content">
+           <div class="gb-content-aboutus">
+                <p class="gb-content-title">关于我们</p>
+                <ul>
+                    <li>
+                         <p class="gb-blod">新手指南</p>
+                         <p><a href="http://www.okhqb.com/help/index/1_59.html" target="_blank" rel="nofollow">找回密码</a></p>
+                         <p><a href="http://www.okhqb.com/help/index/1_28.html" target="_blank" rel="nofollow">注册账号</a></p>
+                         <p><a href="http://www.okhqb.com/help/index/1_13.html" target="_blank" rel="nofollow">交易条款</a></p>
+                    </li>
+                    <li>
+                         <p class="gb-blod">支付配送</p>
+                         <p><a href="http://www.okhqb.com/help/index/51_1000000119.html" target="_blank" rel="nofollow">网上支付</a></p>
+                         <p><a href="http://www.okhqb.com/help/index/1000000065_1000000125.html" target="_blank" rel="nofollow">配送运费</a></p>
+                         <p><a href="http://www.okhqb.com/help/index/1000000065_1000000124.html" target="_blank" rel="nofollow">配送方式</a></p>
+                    </li>
+                    <li>
+                         <p class="gb-blod">售后政策</p>
+                         <p><a href="http://www.okhqb.com/help/index/1000000066_1000000129.html" target="_blank" rel="nofollow">售后政策</a></p>
+                         <p><a href="http://www.okhqb.com/help/index/1000000066_1000000130.html" target="_blank" rel="nofollow">售后流程</a></p>
+                         <p><a href="http://www.okhqb.com/help/index/1000000066_1000000131.html" target="_blank" rel="nofollow">售后申请</a></p>
+                    </li>
+                     <li>
+                         <p class="gb-blod">公司介绍</p>
+                         <p><a href="http://www.okhqb.com/about/about" target="_blank" rel="nofollow">公司介绍</a></p>
+                         <p><a href="http://www.okhqb.com/about/yssm" target="_blank" rel="nofollow">隐私申明</a></p>
+                         <p><a href="http://www.okhqb.com/about/hr" target="_blank" rel="nofollow">招贤纳士</a></p>
+                    </li>
+                </ul>
+           </div>              
+            <div class="gb-content-foucsus">
+                <p class="gb-content-title">关注我们</p>
+                <p class="gb-wx-info"><span>扫二维码加华强北商城官方微信,数码实时报价、精彩活动触手可得</span></p>
+                <p class="gb-wx-btn"><a href="http://e.weibo.com/hqb360" class="gb-sina-wb" target="_blank"><img src="http://s.hqbcdn.com/assets/v3/images/newindex/sina_icon.jpg"></a><a href="http://e.t.qq.com/okhqbokhqb" class="gb-wx" target="_blank"><img src="http://s.hqbcdn.com/assets/v3/images/newindex/weibo_icon.jpg"></a></p>
+           </div>             
+            <div class="gb-content-contactus">
+                <p class="gb-content-title">联系我们</p>
+                <p class="gb-okhqb-tel">0755-88698888</p>
+                <p class="gb-okhqb-ph">节假日：9:00-18:00</p>
+                <p class="gb-okhqb-ph">工作日：9:00-22:00</p>
+                <p class="gb-okhqb-yj"><span class="okhqb_feed">意见反馈</span></p>
+           </div>   
+        </div>
+    </div>
+    <div class="gb-okhqb-rz">
+       <p class="gb-okhqb-copy">Copyright © 2010-2014 深圳市华强北在线商务有限公司 版权所有 粤ICP备12050212号-1</p>
+       <p class="gb-okhqb-link"><a href="http://www.okhqb.com/zixun/17" target="_blank">热点资讯</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.okhqb.com/link" target="_blank">友情链接</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.okhqb.com/sitemap.html" target="_blank">网站地图</a>&nbsp;&nbsp;&nbsp;<a href="http://pifa.okhqb.com" target="_blank">批量采购</a>|&nbsp;&nbsp;&nbsp;<a href="http://stopic.okhqb.com/gonghuo.html" target="_blank">供应商入驻</a>&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.okhqb.com/help.html" target="_blank">帮助中心</a></p>
+       <p class="gb-okhqb-jd">
+            <a href="http://www.sznet110.gov.cn" target="_blank" rel="nofollow"><img src="http://s.hqbcdn.com/assets/v3/images/newindex/wj_btn.jpg" title="深圳网警" alt="深圳网警"></a>
+            <a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow"><img src="http://s.hqbcdn.com/assets/v3/images/newindex/dx_btn.jpg" title="增值电信业务经营许可证" alt="经营许可证"></a>
+            <a href="http://www.ebs.gov.cn/EntCertificate.aspx?mainId=bc682492-860c-4d99-9130-b66ab75bcbf2" target="_blank" rel="nofollow"><img src="http://s.hqbcdn.com/assets/v3/images/newindex/sc_btn.jpg" title="市场监制主体身份认证" alt="市场监制主体身份认证"></a>
+            	<a href="http://www.szscjg.gov.cn/" target="_blank" rel="nofollow"><img src="http://s.hqbcdn.com/assets/v3/images/newindex/gl_btn.jpg" alt="电子商务消费者服务站" title="电子商务消费者服务站"></a>
+                              <a href="http://www.anquan.org/authenticate/cert/?site=www.okhqb.com&amp;at=realname" target="_blank">
+<img width="124" height="47" src="http://img1.hqbcdn.com/misc/footpic/sm_124x47.png" style="border:none;">
+</a>
+            </p>
+    </div>
+</div>
+</body>
+</html>

@@ -8,6 +8,8 @@ use Hash;
 use DB;
 //导入要调用的模型类
 use App\Model\Users;
+//导入校验类
+use App\Http\Requests\UserInsert;
 class UserController extends Controller
 {
     /**
@@ -46,7 +48,7 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(UserInsert $request)
     {
         //处理添加信息
         //接收提交的信息 并将repassword _token去掉

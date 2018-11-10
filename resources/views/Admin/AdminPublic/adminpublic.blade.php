@@ -251,10 +251,10 @@
                     </li>
 
                     <li>
-                        <a href="#"><i class="icon-file"></i> 文章管理</a>
+                        <a href="#"><i class="icon-file"></i> 精选管理</a>
                         <ul class="closed">
-                            <li><a href="">文章添加</a></li>
-                            <li><a href="">文章列表</a></li>
+                            <li><a href="/choiceness/create">精选商品添加</a></li>
+                            <li><a href="/choiceness">精选商品列表</a></li>
                         </ul>
                     </li>
 

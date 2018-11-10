@@ -11,7 +11,6 @@
 |
 */
 
-
 //后台首页
 Route::resource("admins","Admin\AdminsController");
 //后台无线分类
@@ -24,4 +23,14 @@ Route::resource("adminuser","Admin\UserController");
 Route::get("/del","Admin\UserController@del");
 //后台商品
 Route::resource("/adminshop","Admin\ShopController");
+//精选模块
+Route::resource("/choiceness","Admin\ChoicenessController");
+Route::get("/choicenessdel","Admin\ChoicenessController@del");
+
+//前台首页
+Route::resource("/","Home\HomeController");
+//前台详情页
+Route::resource("/goods","Home\GoodsController");
+//前台精选
+Route::resource("/choice","Home\ChoiceController");
 
