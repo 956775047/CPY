@@ -231,9 +231,32 @@
                         <ul class="closed">
                             <li><a href="/adminsuser/create">管理员添加</a></li>
                             <li><a href="/adminsuser">管理员列表</a></li>
+                            <li><a href="/admin_userss/create">角色添加</a></li>
+                            <li><a href="/admin_userss">角色列表</a></li>
+                            <li><a href="/authlist/create">权限添加</a></li>
+                            <li><a href="/authlist">权限列表</a></li>
                         </ul>
                     </li>
-
+                    <li>
+                        <a href="#"><i class="icon-user"></i>轮播图管理</a>
+                        <ul class="closed">
+                            <li><a href="/change/create">轮播图添加</a></li>
+                            <li><a href="/change">轮播图列表</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-user"></i>评价管理</a>
+                        <ul class="closed"> 
+                            <li><a href="/assess">评价列表</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-user"></i>商品管理</a>
+                        <ul class="closed">
+                            <li><a href="/goods/create">商品添加</a></li>
+                            <li><a href="/goods">商品列表</a></li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="#"><i class="icon-user"></i>会员管理</a>
                         <ul class="closed">
@@ -283,7 +306,15 @@
                      {{session('error')}}
                 </div>
                 @endif
-
+                 @if (count($errors) > 0) 
+                 <div class="mws-form-message warning"> 
+                          <ul>   
+                                @foreach ($errors->all() as $error) 
+                           <li>{{ $error }}</li>
+                                @endforeach   
+                         </ul>
+                </div>
+                @endif
                 @section("admin")
                 @show
                                
@@ -332,6 +363,6 @@
 
     <!-- Demo Scripts (remove if not needed) -->
     <script src="/static/admins/b/js/demo/demo.dashboard.js"></script>
-
+   
 </body>
 </html>

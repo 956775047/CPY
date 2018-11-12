@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+        <meta name="keywords" content="华强北商城,华强北在线商城,深圳华强北,3c产品,3C数码,数码产品,手机数码商城,手机商城，okhqb,手机特卖,特卖商城" />
+    <meta name="description" content="华强北商城,中国专业3C手机数码特卖网站.为您提供市场上最热销的苹果iPhone,华为荣耀,魅族魅蓝,手机配件,电脑等数码产品.促销让利,限时抢购,华强北商城，3C数码商城首选品牌！" />
+    <meta name="baidu-site-verification" content="Bq3N064OYz" />
+    <link rel="shortcut icon" href="http://s.hqbcdn.com/favicon/favicon.ico?t=1" />
+    <title>华强北商城,中国专业3C手机数码特卖网站,正品正货</title>
+    <link rel="stylesheet" type="text/css" href="http://s2.hqbcdn.com/??assets/v4/css/base.css,assets/v4/css/public-new.css,lib/dialog/skins/dialog.css?t=20160808"/>
+    <link rel="stylesheet" href="http://s.hqbcdn.com/assets/v4/css/home/okIndex.css?t=20160816"/>
+    <script type="text/javascript" src="http://s1.hqbcdn.com/??lib/jquery/jquery-1.7.2.min.js,lib/jquery/slides.min.jquery.js,lib/jquery/jquery.lazyload.js?t=20140720"></script>
+    <script type="text/javascript" src="http://s.hqbcdn.com/??lib/jquery/jquery.cookie.js,lib/dialog/artDialog.js,lib/OKHQB/sign/sign.js?t=20140513"></script>
+    <style type="text/css">
+        .mod-t .today{margin:0 auto;width:128px;height:63px;background: url(http://img1.hqbcdn.com/misc/gai20180705/images/jrjx.png) 0 bottom;}
+        .wx-wrap{position: fixed;left: 0;top:0;z-index:99999999;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.8);filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#90000000,endColorStr=#90000000);}
+        .wx-body{position:relative;left:50%;top:50%;margin:-307px 0 0 -492px;width:1080px;height:614px;background: url(http://img1.hqbcdn.com/misc/neusergif/images/xcx_pc_window.png) no-repeat center center;}
+        .wx-close,.wx-link{position:absolute;display: block;}
+        .wx-close{bottom:40px;width: 100%;height: 60px;}
+        .wx-link{top:30px;left:188px;width: 720px;height: 400px;text-indent: -99999em;}
+    </style>
+</head>
+<body>
+<!-- 公告 -->
+<div class="terr_notice">
+    <span>
+警惕：有一些不法分子假冒我司名义、网站，骗取消费者钱财。为维护消费者合法权益，特此声明：华强北商城官方网址www.okhqb.com，请广大消费者明辨真伪，以防被骗。
+</span>
+</div> <!--双链接顶通 s-->
+<!--E 双链接顶通 -->
+
+<!--顶通 s -->
+<!--顶通 e -->
+<div id="toolbar-bg">
+    <div class="toolbar">
+        <div class="toolbar-left">
+            <p class="unlogin dc-unlogin"><a href="http://login.okhqb.com/member/login.html" rel="nofollow" class="nav-bold">您好!&nbsp;请登录</a>&nbsp;<i>|</i>&nbsp;<a href="http://login.okhqb.com/member/register.html" rel="nofollow" class="nav-bold" style="color: #686868">注册</a></p>
+            <p class="logined dc-logined">
+                您好&nbsp;,<a href="http://my.okhqb.com/my/home.html" rel="nofollow" class="nav-bold dc-nav-user" target="_blank">&nbsp;</a>&nbsp;,欢迎来到华强北商城！|&nbsp;
+                <a href="http://www.okhqb.com/member/logout.html" rel="nofollow">退出</a>
+            </p>
+        </div>
+        <div class="toolbar-right">
+            <ul class="toolbar-right-list">
+                <li ><a href="http://my.okhqb.com/my/home.html?utml=member" target="_blank">我的账户</a><i class="list-icon-new"></i>
+                    <div class="toolbar-my toolbar-right-box" >
+                        <a href="http://my.okhqb.com/my/order.html?utml=oder" target="_blank">我的订单</a>
+                        <a href="http://my.okhqb.com/my/point.html?utml=coin" target="_blank">我的小强币</a>
+                        <a href="http://my.okhqb.com/my/subscription.html?utml=focus" target="_blank">我的关注</a>
+                        <a href="http://my.okhqb.com/my/coupons.html?utml=coupons" target="_blank">我的优惠券</a>
+                    </div>
+                </li>
+                <li class="nav-msg dc-nav-msg ">
+                    <a href="http://my.okhqb.com/my/xiaoxi.html" target="_blank">我的消息 <span class="nav-message">0</span></a> <i class="list-icon-new"></i>
+                    <div class=" toolbar-right-box toolbar-sub">
+                        <div class="msg-list-box" style="display: block"><p style="margin-bottom:10px;line-heihgt:50px;text-align:center;left:0px;">暂无消息</p></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.okhqb.com/help/index/1_70.html?utml=help" target="_blank">客户服务</a><i class="list-icon-new"></i>
+                    <div class="toolbar-service toolbar-right-box">
+                        <a class="toolbar-tel" href="javascript:void(0);">客服热线：0755-88698888</a>
+                        
+<div class="kffw" style="width: 160px"><a class="service1" href="https://www.sobot.com/chat/pc/index.html?sysNum=f21c5dd2ebe04583a93a6b2b297e69da" target="_blank">在线客服</a>
+                        <a href="http://www.okhqb.com/help/index/1000000066_1000000136.html?utml=souhou;" class="okhqb-phone">售后服务</a>
+                        <a href="javascript:void(0);" class="okhqb_feed">意见反馈</a></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" target="_blank">关注我们</a><i class="list-icon-new"></i>
+                    <div class=" toolbar-right-box toolbar-focus">
+                        <a class="wx" href="javascript:void(0)">官方微信</a>
+                        <a class="wb" href="http://weibo.com/hqb360" target="_blank"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- 搜索栏 -->
+<div id="header">
+    <div class="headerLayout cfix">
+        <div class="header_logo_new">
+            <h1 class="logo_new_v2">
+                <a href="http://www.okhqb.com/">华强北商城</a>
+            </h1>
+                            <a class="header_freight_new_ad" href="http://stopic.okhqb.com/xinren2016.html?utml=xrcelan" target="_blank"><img src="http://img7.hqbcdn.com/activity/2b/4f/2b4f38a73a55ce2044dcf87e506481ab.gif" alt="新人180礼包" /></a>
+                    </div>
+        <div class="header_extra">
+            <div class="header_search">
+                                <ul id="result_lib" class="dropdown_list" style="display: none;"></ul>
+                <ul id="recommend_lib" class="dropdown_list" style="display: none;">
+                                        <!--<li class="close_result">关闭</li>-->
+                </ul>
+                <form action="http://www.okhqb.com/search.html" name="shopSearch" id="for_shop" method="get" target="_blank" class="search_fm">
+                    <div class="search_input">
+                        <input type="hidden">
+                        <label class="placeholder" for="search_key" style="display: none;">请输入搜索关键词</label>
+                        <input type="text" class="search_key" name="q" value="" id="search_key" autocomplete="off">
+                        <input type="submit" value="搜索" class="search_btn">
+                    </div>
+                </form>
+                <ul class="hot_query">
+                                            <li><a href="http://www.okhqb.com/item/1000126770.html?utml=1011" title="iPhone XS Max ￥8399" style="color:#e10808;">iPhone XS Max ￥8399</a></li>
+                                            <li><a href="http://www.okhqb.com/item/1000123543.html?utml=1011" title="AirPods ￥999" style="">AirPods ￥999</a></li>
+                                            <li><a href="http://www.okhqb.com/item/1000125272.html?utml=air0724" title="MacBook Air ￥5999" style="">MacBook Air ￥5999</a></li>
+                                    </ul>
+            </div>
+             <!-- 新增购物车 -->
+            <div class="header_car fr">
+                <a href="http://buy.okhqb.com/buy/cart.html" target="_blank"><i class="cart_num">0</i><span></span>我的购物车&nbsp;></a>
+            </div>
+        </div>
+    </div>
+</div><div id="new-menu-v2" class="new-menu-v2">
+    <ul class="mod-list mod-list-v2 mod-list-v3">
+        <li class="type-nav"><a href="javascript:void(0);" id="sale-list"><i class="list-icon-v2"></i>商品分类</a></li>
+        <li class="sub-list"><a href="http://www.okhqb.com" target="_blank">首页</a></li>
+        <li class="sub-list"><a href="http://www.okhqb.com/haiwai.html?utml=dh_haiwai" target="_blank">海外淘</a> </li>
+        <li class="sub-list"><a href="http://www.okhqb.com/shouji.html?utml=dh_shoujihui" target="_blank">手机惠</a></li>
+        <li class="sub-list"><a href="http://www.okhqb.com/shuma.html?utml=dh_shuma" target="_blank">数码港</a></li>
+        <li class="sub-list"><a href="http://stopic.okhqb.com/youpin.html?utml=dh_youpin" target="_blank">二手优品</a></li>
+       
+<li class="sub-list sub-list-ensure"><a href="http://stopic.okhqb.com/genuine.html?utml=top_zhengpin" target="_blank"></a></li>
+    </ul>
+    <div class="sale-list-wrapper hone-list cfix">
+        <div class="sale-list-nav">
+            <dl>
+                <dt><span class="list-nav-icon1"></span>手机通讯<i></i></dt>
+                <dt><span class="list-nav-icon2"></span>苹果专区<i></i></dt>
+                <dt><span class="list-nav-icon3"></span>手机配件<i></i></dt>
+                <dt><span class="list-nav-icon5"></span>视听/数码配件<i></i></dt>
+                <dt><span class="list-nav-icon4"></span>电脑办公<i></i></dt>
+                <dt><span class="list-nav-icon6"></span>智能/生活<i></i></dt>
+                <dt><span class="list-nav-icon7"></span>摄影摄像<i></i></dt>
+                <!-- <dt><span class="list-nav-icon8"></span>电子教育<i></i></dt>-->
+                <dt><span class="list-nav-icon9"></span>游戏/周边<i></i></dt>
+            </dl>
+        </div>
+        <!-- 手机通讯 -->
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/137-2440_11813--1-.html?utml=zsfenlei" target="_blank">华为</a>
+            <a href="http://www.okhqb.com/list/137-2440_25143--1-.html?utml=zsfenlei" target="_blank">魅族</a>
+            <a href="http://www.okhqb.com/list/137-2440_1300009820--1-.html?utml=zsfenlei" target="_blank">小米</a>
+            <a href="http://www.okhqb.com/list/137-2440_81156--1-.html?utml=zsfenlei" target="_blank">三星</a>
+            <a href="http://www.okhqb.com/list/137-2440_1300015465--1-.html?utml=zsfenlei" target="_blank">美图</a>
+            <a href="http://www.okhqb.com/list/137-2440_33564--1-.html?utml=zsfenlei" target="_blank">诺基亚</a>
+            <a href="http://www.okhqb.com/list/137.html?utml=zsfenlei" target="_blank">更多>></a>
+        </div>
+        <!-- 苹果专区 -->
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/137-2440_30111--1-.html?utml=zsfenlei" target="_blank">iPhone</a>
+            <a href="http://www.okhqb.com/search.html?q=ipad&utml=zsfenlei" target="_blank">iPad</a>
+            <a href="http://www.okhqb.com/search.html?q=ipod&utml=zsfenlei" target="_blank">iPod</a>
+            <a href="http://www.okhqb.com/search.html?q=macbook&utml=zsfenlei" target="_blank">Mac</a>
+            <a href="http://www.okhqb.com/list/74-4535_30111--1-.html?utml=zsfenlei" target="_blank">iPhone贴膜</a>
+            <a href="http://www.okhqb.com/search.html?q=iphone%E4%BF%9D%E6%8A%A4%E5%A5%97%2F%E5%A3%B3&utml=zsfenlei" target="_blank">iPhone保护壳</a>
+            <a href="http://www.okhqb.com/search.html?q=ipad%E8%B4%B4%E8%86%9C|&utml=zsfenlei" target="_blank">iPad贴膜</a>
+            <a href="http://www.okhqb.com/search.html?q=iPad%E4%BF%9D%E6%8A%A4%E5%A3%B3&utml=zsfenlei" target="_blank">iPad保护壳</a>
+            <a href="http://www.okhqb.com/list/388.html?utml=zsfenlei" target="_blank">苹果原装配件</a>
+        </div>
+        <!-- 手机配件 -->
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/116.html?utml=zsfenlei" target="_blank">保护套/壳</a>
+            <a href="http://www.okhqb.com/list/74.html?utml=zsfenlei" target="_blank">手机贴膜</a>
+            <a href="http://www.okhqb.com/list/214.html?utml=zsfenlei" target="_blank">充电器/数据线</a>
+            <a href="http://www.okhqb.com/list/131.html?utml=zsfenlei" target="_blank">移动电源</a>
+            <a href="http://www.okhqb.com/list/248.html?utml=zsfenlei" target="_blank">创意配件</a>
+            <a href="http://www.okhqb.com/list/43.html?utml=zsfenlei" target="_blank">蓝牙耳机</a>
+        </div>
+        <!-- 视听/数码配件 -->
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/erji.html?utml=zsfenlei" target="_blank">耳机耳麦</a>
+            <a href="http://www.okhqb.com/list/171.html?utml=zsfenlei" target="_blank">音箱/音响</a>
+            <a href="http://www.okhqb.com/list/6.html?utml=zsfenlei" target="_blank">投影仪</a>
+            <a href="http://www.okhqb.com/list/521.html?utml=zsfenlei" target="_blank">影音播放器</a>
+            <a href="http://www.okhqb.com/list/202.html?utml=zsfenlei" target="_blank">网络盒子</a>
+            <a href="http://www.okhqb.com/list/146.html?utml=zsfenlei" target="_blank">存储卡</a>
+            <a href="http://www.okhqb.com/list/111.html?utml=zsfenlei" target="_blank">影音配件</a>
+        </div>
+        <!-- 电脑办公 -->
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/299.html?utml=zsfenlei" target="_blank">平板/笔记本</a>
+            <a href="http://www.okhqb.com/list/25.html?utml=zsfenlei" target="_blank">一体机</a>
+            <a href="http://www.okhqb.com/list/230.html?utml=zsfenlei" target="_blank">打印机/耗材</a>
+            <a href="http://www.okhqb.com/list/Memory.html?utml=zsfenlei" target="_blank">移动硬盘</a>
+            <a href="http://www.okhqb.com/list/99.html?utml=zsfenlei" target="_blank">U盘</a>
+            <a href="http://www.okhqb.com/list/41.html?utml=zsfenlei" target="_blank">鼠标</a>
+            <a href="http://www.okhqb.com/list/179.html?utml=zsfenlei" target="_blank">键盘/套装</a>
+            <a href="http://www.okhqb.com/list/165.html?utml=zsfenlei" target="_blank">散热器</a>
+            <a href="http://www.okhqb.com/list/242.html?utml=zsfenlei" target="_blank">路由器</a>
+            <a href="http://www.okhqb.com/list/game.html?utml=zsfenlei" target="_blank">电源插座</a>
+            <a href="http://www.okhqb.com/list/113.html?utml=zsfenlei" target="_blank">电脑工具</a>
+        </div>
+        <!-- 智能/生活 -->
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/235.html?utml=zsfenlei" target="_blank">智能穿戴</a>
+            <a href="http://www.okhqb.com/list/245.html?utml=zdfenlei" target="_blank">智能家居</a>
+            <a href="http://www.okhqb.com/list/qs.html?utml=zsfenlei" target="_blank">小家电</a>
+            <a href="http://www.okhqb.com/list/665.html?utml=zsfenlei" target="_blank">健康监测</a>
+            <a href="http://www.okhqb.com/list/404.html?utml=zsfenlei" target="_blank">户外运动</a>
+            <a href="http://www.okhqb.com/list/100.html?utml=zsfenlei" target="_blank">无人机</a>
+            <a href="http://www.okhqb.com/list/188.html?utml=zsfenlei" target="_blank">汽车用品</a>
+            <a href="http://www.okhqb.com/list/122.html?utml=zsfenlei" target="_blank">智能机器人</a>
+            <a href="http://www.okhqb.com/list/quwan.html?utml=zsfenlei" target="_blank">益智玩具</a>
+        </div>
+        <!-- 摄影摄像 -->
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/50.html?utml=zdfenlei" target="_blank">摄像机</a>
+            <a href="http://www.okhqb.com/list/151.html?utml=zdfenlei" target="_blank">单反相机</a>
+            <a href="http://www.okhqb.com/list/175.html?utml=zdfenlei" target="_blank">单电/微单相机</a>
+            <a href="http://www.okhqb.com/list/61.html?utml=zdfenlei" target="_blank">数码相机</a>
+            <a href="http://www.okhqb.com/list/58.html?utml=zdfenlei" target="_blank">运动相机</a>
+            <a href="http://www.okhqb.com/list/247.html?utml=zdfenlei" target="_blank">拍立得</a>
+            <a href="http://www.okhqb.com/list/119.html?utml=zdfenlei" target="_blank">镜头</a>
+            <a href="http://www.okhqb.com/list/266.html?utml=zdfenlei" target="_blank">摄影配件</a>
+        </div>
+        <!--&lt;!&ndash; 电子教育 &ndash;&gt;--
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/quwan.html?utml=zdfenlei" target="_blank">智能玩具</a>
+            <a href="http://www.okhqb.com/list/247.html?utml=zsfenlei" target="_blank">智能手表</a>
+            <a href="http://www.okhqb.com/list/266.html?utml=zsfenlei" target="_blank">智能手环</a>
+            <a href="http://www.okhqb.com/list/qs.html?utml=zsfenlei" target="_blank">智能清洁</a>
+            <a href="http://www.okhqb.com/list/701.html?utml=zsfenlei" target="_blank">个护健康</a>
+            <a href="http://www.okhqb.com/list/138.html?utml=zsfenlei" target="_blank">加湿器</a>
+        </div>
+        <!--&lt;!&ndash; 游戏/周边 &ndash;&gt;-->
+        <div class="sale-list-item">
+            <a href="http://www.okhqb.com/list/726.html?utml=zsfenlei" target="_blank">游戏主机</a>
+            <a href="http://www.okhqb.com/list/725.html?utml=zdfenlei" target="_blank">游戏手柄</a>
+            <a href="http://www.okhqb.com/list/722.html?utml=zdfenlei" target="_blank">游戏控制器</a>
+            <a href="http://www.okhqb.com/list/723.html?utml=zdfenlei" target="_blank">游戏软件</a>
+            <a href="http://www.okhqb.com/list/724.html?utml=zdfenlei" target="_blank">配件/其他</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="ok-body">
+<!-- banner -->
+<div class="ok-slide">
+    <div class="ok-slide-bd">
+        <ul class="slides_container">
+                            <li><a target="_blank" href="http://www.okhqb.com/item/1000126770.html?utml=sysj_01_0920" style="height:360px;background: url(http://img13.hqbcdn.com/activity/73/d5/73d520882d57d717f116ef8c0df0176c.jpg) no-repeat center center;"></a></li>
+                            <li><a target="_blank" href="http://www.okhqb.com/item/1000126399.html?utml=sysj_02_0806" style="height:360px;background: url(http://img14.hqbcdn.com/activity/1d/1e/1d1e51e3f48e1bfb1116c5a25b880aaa.jpg) no-repeat center center;"></a></li>
+                            <li><a target="_blank" href="http://www.okhqb.com/item/1000125617.html?utml=sysj_04_0904" style="height:360px;background: url(http://img4.hqbcdn.com/activity/97/23/9723dd26331d6834ce0cc3cf17786c28.jpg) no-repeat center center;"></a></li>
+                            <li><a target="_blank" href="http://www.okhqb.com/item/1000125624.html?utml=sysj_05_0806" style="height:360px;background: url(http://img2.hqbcdn.com/activity/e2/58/e2580fff27bb664bf4d681f97d65c4c7.jpg) no-repeat center center;"></a></li>
+                            <li><a target="_blank" href="http://www.okhqb.com/item/1000126669.html?utml=sysj_06_0828" style="height:360px;background: url(http://img1.hqbcdn.com/activity/40/52/4052a0c4f9a25ba0f9d25be957d5412a.jpg) no-repeat center center;"></a></li>
+            
+        </ul>
+    </div>
+</div>
+<!-- 今日限购 -->
+<div class="w-1200" id="sec1">
+    <div class="mod-t"><h1 class="today"></h1></div>
+    <ul class="cfix td-list">
+                    <li class="bd cfix">
+                <div class="sale-img fl">
+                    <a href="http://www.okhqb.com/item/1000126145.html?utml=home" target="_blank"><img width="306" height="276" src="http://img6.hqbcdn.com/activity/ea/0a/ea0abdae3ca3370401bf1394d0872b68.jpg" alt=""/></a>
+                                    </div>
+                <div class="sale-info fr">
+                    <h2 class="sale-time" data-time="14012"><i></i>距离活动结束: <p class="sp-iblock"><span>0</span><span>0</span>:<span>0</span><span>0</span>:<span>0</span><span>0</span></p></h2>
+                    <a href="http://www.okhqb.com/item/1000126145.html?utml=home" target="_blank" class="sp-block link1">荣耀 9i</a>
+                    <a href="http://www.okhqb.com/item/1000126145.html?utml=home" target="_blank" class="sp-block link2">直降100！可遇不可求！</a>
+                    <div class="td-price">
+                        特惠价:&yen; <i>1458</i>
+                        <a href="http://www.okhqb.com/item/1000126145.html?utml=home" target="_blank" class="sp-iblock sp-buy fr">立即购买</a>
+                    </div>
+                    <div class="sp-info cfix">
+                        <div class="info1 fl">
+                            <p>市场价</p>
+                            <p>&yen;1699</p>
+                        </div>
+                        <div class="info2 fl">
+                            <p>折扣</p>
+                            <p>8.6折</p>
+                        </div>
+                        <div class="info3 fl">
+                            <p>已节省</p>
+                            <p>&yen;241</p>
+                        </div>
+                        <div class="info4 fr">
+                            <p class="buy-num" style="font-size:16px"><i></i>1224</p>
+                            <p>已购买</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                    <li class="bd cfix">
+                <div class="sale-img fl">
+                    <a href="http://www.okhqb.com/item/1000125950.html?utml=home" target="_blank"><img width="306" height="276" src="http://img14.hqbcdn.com/activity/18/d1/18d14e3472159717af42a7cb5fd8e7ad.jpg" alt=""/></a>
+                                    </div>
+                <div class="sale-info fr">
+                    <h2 class="sale-time" data-time="14012"><i></i>距离活动结束: <p class="sp-iblock"><span>0</span><span>0</span>:<span>0</span><span>0</span>:<span>0</span><span>0</span></p></h2>
+                    <a href="http://www.okhqb.com/item/1000125950.html?utml=home" target="_blank" class="sp-block link1">WANLE 游戏手机壳</a>
+                    <a href="http://www.okhqb.com/item/1000125950.html?utml=home" target="_blank" class="sp-block link2">网红抖音神器</a>
+                    <div class="td-price">
+                        特惠价:&yen; <i>29</i>
+                        <a href="http://www.okhqb.com/item/1000125950.html?utml=home" target="_blank" class="sp-iblock sp-buy fr">立即购买</a>
+                    </div>
+                    <div class="sp-info cfix">
+                        <div class="info1 fl">
+                            <p>市场价</p>
+                            <p>&yen;49</p>
+                        </div>
+                        <div class="info2 fl">
+                            <p>折扣</p>
+                            <p>5.9折</p>
+                        </div>
+                        <div class="info3 fl">
+                            <p>已节省</p>
+                            <p>&yen;20</p>
+                        </div>
+                        <div class="info4 fr">
+                            <p class="buy-num" style="font-size:16px"><i></i>820</p>
+                            <p>已购买</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                    <li class="bd cfix">
+                <div class="sale-img fl">
+                    <a href="http://www.okhqb.com/item/1000125643.html?utml=home" target="_blank"><img width="306" height="276" src="http://img10.hqbcdn.com/activity/88/35/8835015b42772aa81e9ebb8ac63d99eb.jpg" alt=""/></a>
+                                    </div>
+                <div class="sale-info fr">
+                    <h2 class="sale-time" data-time="14012"><i></i>距离活动结束: <p class="sp-iblock"><span>0</span><span>0</span>:<span>0</span><span>0</span>:<span>0</span><span>0</span></p></h2>
+                    <a href="http://www.okhqb.com/item/1000125643.html?utml=home" target="_blank" class="sp-block link1">Apple iPad 2018</a>
+                    <a href="http://www.okhqb.com/item/1000125643.html?utml=home" target="_blank" class="sp-block link2">直降300！</a>
+                    <div class="td-price">
+                        特惠价:&yen; <i>3050</i>
+                        <a href="http://www.okhqb.com/item/1000125643.html?utml=home" target="_blank" class="sp-iblock sp-buy fr">立即购买</a>
+                    </div>
+                    <div class="sp-info cfix">
+                        <div class="info1 fl">
+                            <p>市场价</p>
+                            <p>&yen;3359</p>
+                        </div>
+                        <div class="info2 fl">
+                            <p>折扣</p>
+                            <p>9.1折</p>
+                        </div>
+                        <div class="info3 fl">
+                            <p>已节省</p>
+                            <p>&yen;309</p>
+                        </div>
+                        <div class="info4 fr">
+                            <p class="buy-num" style="font-size:16px"><i></i>1756</p>
+                            <p>已购买</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                    <li class="bd cfix">
+                <div class="sale-img fl">
+                    <a href="http://www.okhqb.com/item/1000126404.html?utml=home" target="_blank"><img width="306" height="276" src="http://img5.hqbcdn.com/activity/57/10/5710a0790830b6dcac6803ffcb383d7c.jpg" alt=""/></a>
+                                    </div>
+                <div class="sale-info fr">
+                    <h2 class="sale-time" data-time="14012"><i></i>距离活动结束: <p class="sp-iblock"><span>0</span><span>0</span>:<span>0</span><span>0</span>:<span>0</span><span>0</span></p></h2>
+                    <a href="http://www.okhqb.com/item/1000126404.html?utml=home" target="_blank" class="sp-block link1">三星 S9 夕雾紫</a>
+                    <a href="http://www.okhqb.com/item/1000126404.html?utml=home" target="_blank" class="sp-block link2">直降500！</a>
+                    <div class="td-price">
+                        特惠价:&yen; <i>4250</i>
+                        <a href="http://www.okhqb.com/item/1000126404.html?utml=home" target="_blank" class="sp-iblock sp-buy fr">立即购买</a>
+                    </div>
+                    <div class="sp-info cfix">
+                        <div class="info1 fl">
+                            <p>市场价</p>
+                            <p>&yen;4999</p>
+                        </div>
+                        <div class="info2 fl">
+                            <p>折扣</p>
+                            <p>8.5折</p>
+                        </div>
+                        <div class="info3 fl">
+                            <p>已节省</p>
+                            <p>&yen;749</p>
+                        </div>
+                        <div class="info4 fr">
+                            <p class="buy-num" style="font-size:16px"><i></i>727</p>
+                            <p>已购买</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                    <li class="bd cfix">
+                <div class="sale-img fl">
+                    <a href="http://www.okhqb.com/item/1000125434.html?utml=home" target="_blank"><img width="306" height="276" src="http://img15.hqbcdn.com/activity/7a/7f/7a7f8ef3e483e850b57dc52fa0065740.jpg" alt=""/></a>
+                                    </div>
+                <div class="sale-info fr">
+                    <h2 class="sale-time" data-time="14012"><i></i>距离活动结束: <p class="sp-iblock"><span>0</span><span>0</span>:<span>0</span><span>0</span>:<span>0</span><span>0</span></p></h2>
+                    <a href="http://www.okhqb.com/item/1000125434.html?utml=home" target="_blank" class="sp-block link1">华为 Mate 10 Pro</a>
+                    <a href="http://www.okhqb.com/item/1000125434.html?utml=home" target="_blank" class="sp-block link2">比官方价低600！</a>
+                    <div class="td-price">
+                        特惠价:&yen; <i>2999</i>
+                        <a href="http://www.okhqb.com/item/1000125434.html?utml=home" target="_blank" class="sp-iblock sp-buy fr">立即购买</a>
+                    </div>
+                    <div class="sp-info cfix">
+                        <div class="info1 fl">
+                            <p>市场价</p>
+                            <p>&yen;4199</p>
+                        </div>
+                        <div class="info2 fl">
+                            <p>折扣</p>
+                            <p>7.1折</p>
+                        </div>
+                        <div class="info3 fl">
+                            <p>已节省</p>
+                            <p>&yen;1200</p>
+                        </div>
+                        <div class="info4 fr">
+                            <p class="buy-num" style="font-size:16px"><i></i>865</p>
+                            <p>已购买</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+                    <li class="bd cfix">
+                <div class="sale-img fl">
+                    <a href="http://www.okhqb.com/item/1000126685.html?utml=home" target="_blank"><img width="306" height="276" src="http://img5.hqbcdn.com/activity/ab/30/ab30211e67afa26e816315e8f68127ba.jpg" alt=""/></a>
+                                    </div>
+                <div class="sale-info fr">
+                    <h2 class="sale-time" data-time="14012"><i></i>距离活动结束: <p class="sp-iblock"><span>0</span><span>0</span>:<span>0</span><span>0</span>:<span>0</span><span>0</span></p></h2>
+                    <a href="http://www.okhqb.com/item/1000126685.html?utml=home" target="_blank" class="sp-block link1">果汁日记榨汁杯</a>
+                    <a href="http://www.okhqb.com/item/1000126685.html?utml=home" target="_blank" class="sp-block link2">/</a>
+                    <div class="td-price">
+                        特惠价:&yen; <i>128</i>
+                        <a href="http://www.okhqb.com/item/1000126685.html?utml=home" target="_blank" class="sp-iblock sp-buy fr">立即购买</a>
+                    </div>
+                    <div class="sp-info cfix">
+                        <div class="info1 fl">
+                            <p>市场价</p>
+                            <p>&yen;168</p>
+                        </div>
+                        <div class="info2 fl">
+                            <p>折扣</p>
+                            <p>7.6折</p>
+                        </div>
+                        <div class="info3 fl">
+                            <p>已节省</p>
+                            <p>&yen;40</p>
+                        </div>
+                        <div class="info4 fr">
+                            <p class="buy-num" style="font-size:16px"><i></i>123</p>
+                            <p>已购买</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            </ul>
+</div>
+<!-- 海淘优选 -->
+<div class="w-1200" id="sec4">
+    </div>
+<!-- 国货精品 -->
+<div class="w-1200" id="sec2">
+<div class="mod-t cfix">
+    <h2 class="fl">1F&nbsp;淘机馆</h2>
+    <p>
+        <span>为您推荐:</span>
+                    <a href="http://www.okhqb.com/item/1000126225.html" target="_blank">小米8SE</a>
+                    |<a href="http://www.okhqb.com/item/1000125650.html" target="_blank">荣耀10</a>
+                    |<a href="http://www.okhqb.com/item/1000126204.html" target="_blank">荣耀 Play</a>
+                    |<a href="http://www.okhqb.com/item/1000126276.html" target="_blank">美图 T9</a>
+                    |<a href="http://www.okhqb.com/item/1000126241.html" target="_blank">OPPO R15 梦镜版</a>
+                    |<a href="http://www.okhqb.com/item/1000126301.html" target="_blank">魅族15 Plus</a>
+                    |<a href="http://www.okhqb.com/item/1000126271.html" target="_blank">vivo NEX</a>
+            </p>
+</div>
+<!-- 商品列表 -->
+<div class="mod">
+    <div class="mod-list">
+        <ul class="cfix">
+            <li class="mod-list-1">
+                <a href="http://www.okhqb.com/item/1000126402.html?utml=tjg_01" target="_blank"><img width="240" src="http://img12.hqbcdn.com/activity/1f/a8/1fa8f6867f0c577dfedcd5964c048bda.jpg" alt=""/></a>
+            </li>
+            <li class="mod-list-2">
+                <div class="mod-list2-item">
+                                            <a href="http://www.okhqb.com/item/1000126712.html?utml=home" target="_blank">
+                            <img width="481" height="272" src="http://img8.hqbcdn.com/activity/6b/27/6b271092cfad460336ad131349fc0a1e.jpg" alt=""/>
+                            <div class="list2-tips">
+                                <p class="t1"></p>
+                                <p class="t2"></p>
+                                <p class="t3">&yen;<i>8999</i></p>
+                            </div>
+                                                    </a>
+                                    </div>
+                                <div class="mod-list2-item">
+                                            <div class="mod-item">
+                                                        <div class="mod-img">
+                                <a href="http://www.okhqb.com/item/1000125647.html?utml=home" target="_blank">
+                                    <img width="160" height="160" src="http://img1.hqbcdn.com/product/e0/b6/e0b6d5a02df2374838bd6ed9268c3d9f.160.jpg" alt=""/>
+                                </a>
+                                                            </div>
+                            <div class="mod-info">
+                                <p>&yen; <i>2099</i> <del>市场价:&yen;2599</del> </p>
+                                <a href="http://www.okhqb.com/item/1000125647.html?utml=home" target="_blank" class="sp-block link1">Huawei/华为 荣耀10 全面屏AI摄影手机 全网通 双卡双待 6GB+64GB 幻夜黑</a>
+                            </div>
+                        </div>
+                                            <div class="mod-item">
+                                                        <div class="mod-img">
+                                <a href="http://www.okhqb.com/item/1000126780.html?utml=home" target="_blank">
+                                    <img width="160" height="160" src="http://img4.hqbcdn.com/product/e2/34/e234beccf9034679ea72e202954d3afe.160.jpg" alt=""/>
+                                </a>
+                                                            </div>
+                            <div class="mod-info">
+                                <p>&yen; <i>5388</i> <del>市场价:&yen;5899</del> </p>
+                                <a href="http://www.okhqb.com/item/1000126780.html?utml=home" target="_blank" class="sp-block link1">Samsung/三星 Note 9 HK海淘 移动联通电信4G双卡双待手机 6GB+128GB 寒霜蓝</a>
+                            </div>
+                        </div>
+                                    </div>
+            </li>
+                            <li>
+                <div class="mod-item">
+                                        <div class="mod-img">
+                        <a href="http://www.okhqb.com/item/1000126828.html?utml=home" target="_blank">
+                            <img width="160" height="160" src="http://img16.hqbcdn.com/product/2d/c2/2dc299af76bc9de2ce93c17d4eecf1cb.160.jpg" alt=""/>
+                        </a>
+                                            </div>
+                    <div class="mod-info">
+                        <p>&yen; <i>6199</i> <del>市场价:&yen;6499</del> </p>
+                        <a href="http://www.okhqb.com/item/1000126828.html?utml=home" target="_blank" class="sp-block link1">Apple/苹果 iPhone XR 移动联通电信4G手机 双卡双待手机 64GB 珊瑚色</a>
+                    </div>
+                </div>
+                                            
+                <div class="mod-item">
+                                        <div class="mod-img">
+                        <a href="http://www.okhqb.com/item/1000126214.html?utml=home" target="_blank">
+                            <img width="160" height="160" src="http://img13.hqbcdn.com/product/65/1f/651f3a5fcc8ff5863a2eec86f19c451a.160.jpg" alt=""/>
+                        </a>
+                                            </div>
+                    <div class="mod-info">
+                        <p>&yen; <i>2599</i> <del>市场价:&yen;3199</del> </p>
+                        <a href="http://www.okhqb.com/item/1000126214.html?utml=home" target="_blank" class="sp-block link1">MI/小米 小米 8 全面屏游戏智能手机  全网通4G 双卡双待手机 6GB+128GB 白色</a>
+                    </div>
+                </div>
+                </li>                            <li>
+                <div class="mod-item">
+                                        <div class="mod-img">
+                        <a href="http://www.okhqb.com/item/1000125272.html?utml=home" target="_blank">
+                            <img width="160" height="160" src="http://img5.hqbcdn.com/product/77/2c/772c1ab9dd3f01ac30f3ea137e8e4bd6.160.jpg" alt=""/>
+                        </a>
+                                            </div>
+                    <div class="mod-info">
+                        <p>&yen; <i>5999</i> <del>市场价:&yen;6588</del> </p>
+                        <a href="http://www.okhqb.com/item/1000125272.html?utml=home" target="_blank" class="sp-block link1">Apple/苹果 MacBook air 13.3英寸 2017年新款 MQD32CH/A 128GB</a>
+                    </div>
+                </div>
+                                            
+                <div class="mod-item">
+                                        <div class="mod-img">
+                        <a href="http://www.okhqb.com/item/1000126667.html?utml=home" target="_blank">
+                            <img width="160" height="160" src="http://img8.hqbcdn.com/product/79/95/7995ed01228ddc6e1881cf9378481eff.160.png" alt=""/>
+                        </a>
+                                            </div>
+                    <div class="mod-info">
+                        <p>&yen; <i>3059</i> <del>市场价:&yen;3399</del> </p>
+                        <a href="http://www.okhqb.com/item/1000126667.html?utml=home" target="_blank" class="sp-block link1">Meizu/魅族 16th 全面屏手机 全网通移动联通电信4G手机 双卡双待手机 6GB+64GB 静夜黑</a>
+                    </div>
+                </div>
+                </li>                    </ul>
+    </div>
+</div>
+<!-- 国货精品底部列表 -->
+<ul class="cfix mod-list mod-list2">
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000125413.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img9.hqbcdn.com/product/79/f7/79f7dcc0e6f6aa883854f446ac1d51bb.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>3099</i> <del>市场价:&yen;3999</del> </p>
+                    <a href="http://www.okhqb.com/item/1000125413.html?utml=home" target="_blank" class="sp-block link1">Huawei/华为 Mate 10 移动联通电信4G手机 双卡双待 6GB+128GB 亮黑色</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000126043.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img5.hqbcdn.com/product/01/86/0186f4c8a53a4b27eab07c1917684afe.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>6288</i> <del>市场价:&yen;6388</del> </p>
+                    <a href="http://www.okhqb.com/item/1000126043.html?utml=home" target="_blank" class="sp-block link1">【二手99新】Apple/苹果 iPhone X 国行全网通 在保 64G 黑色</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000125689.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img10.hqbcdn.com/product/af/17/af17efd2a73ac5e7215fd162ff6c4e5b.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>5899</i> <del>市场价:&yen;6399</del> </p>
+                    <a href="http://www.okhqb.com/item/1000125689.html?utml=home" target="_blank" class="sp-block link1">Apple/苹果 iPhone 8 plus 全网通 国行手机 64GB 红色</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000126205.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img2.hqbcdn.com/product/c8/4a/c84a40a8994ec4e1d001e7bf01cd38cb.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>1699</i> <del>市场价:&yen;1999</del> </p>
+                    <a href="http://www.okhqb.com/item/1000126205.html?utml=home" target="_blank" class="sp-block link1">荣耀 Play 全网通版 移动联通电信4G全面屏 双卡双待游戏手机 4GB+64GB 星云紫</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000125640.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img16.hqbcdn.com/product/1c/47/1c470fff82183af026bed571d122ecd7.160.png" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>2399</i> <del>市场价:&yen;2599</del> </p>
+                    <a href="http://www.okhqb.com/item/1000125640.html?utml=home" target="_blank" class="sp-block link1">Apple/苹果 Apple iPad 2018新款 9.7英寸 国行 32G WiFi版 金色</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000126277.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img6.hqbcdn.com/product/e1/8f/e18fd69e8341f40ad86f24647fe7de14.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>2999</i> <del>市场价:&yen;3399</del> </p>
+                    <a href="http://www.okhqb.com/item/1000126277.html?utml=home" target="_blank" class="sp-block link1">Meitu/美图 T9 美颜自拍手机 全网通手机 4G+64G 仙踪绿</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000126742.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img16.hqbcdn.com/product/86/16/8616231a52397122f3ac499f63fab64b.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>3299</i> <del>市场价:&yen;3499</del> </p>
+                    <a href="http://www.okhqb.com/item/1000126742.html?utml=home" target="_blank" class="sp-block link1">vivo X23 水滴屏全面屏 游戏手机 移动联通电信全网通4G手机 双卡双待手机 8GB+128GB 魅影紫</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000126463.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img6.hqbcdn.com/product/2f/f4/2ff4162dada25a9a8ea93a4043846409.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>4599</i> <del>市场价:&yen;5299</del> </p>
+                    <a href="http://www.okhqb.com/item/1000126463.html?utml=home" target="_blank" class="sp-block link1">OPPO Find X 曲面全景屏 全网通 移动联通电信全网通4G 双卡双待手机 8GB+128GB 波尔多红</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000126754.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img14.hqbcdn.com/product/07/3e/073e7174c28ce4f403319b188ed7cf65.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>2059</i> <del>市场价:&yen;2399</del> </p>
+                    <a href="http://www.okhqb.com/item/1000126754.html?utml=home" target="_blank" class="sp-block link1">MI/小米 8SE 全面屏智能手机 全网通4G 双卡双待手机 6GB+128GB 金色</a>
+                </div>
+            </div>
+        </li>
+            <li>
+            <div class="mod-item">
+                                <div class="mod-img">
+                    <a href="http://www.okhqb.com/item/1000126108.html?utml=home" target="_blank">
+                        <img width="160" height="160" src="http://img10.hqbcdn.com/product/72/10/7210ea76f2b4fe5937abf724582ffca3.160.jpg" alt=""/>
+                    </a>
+                                    </div>
+                <div class="mod-info">
+                    <p>&yen; <i>2699</i> <del>市场价:&yen;3598</del> </p>
+                    <a href="http://www.okhqb.com/item/1000126108.html?utml=home" target="_blank" class="sp-block link1">vivo X21 UD屏下指纹版 全面屏 双摄美颜拍照手机 全网通 双卡双待 6GB+128GB 宝石红</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+<!-- 精品小商品 -->
+<div class="mod mod-3">
+    <ul class="cfix mod-list3">
+        
+            <li class="cifx fl">
+                <div class="mod-list3-l fl">
+                    <a href="http://www.okhqb.com/item/1000126658.html?utml=home" target="_blank"><img width="80" height="80" src="http://img3.hqbcdn.com/activity/b6/81/b6810981d9df765ae734a6e163d1e7cb.png" alt=""/></a>
+                </div>
+                <div class="mod-list3-r fr">
+                    <a href="http://www.okhqb.com/item/1000126658.html?utml=home" target="_blank" class="sp-block link1">1MORE智能蓝牙耳机 </a>
+                    <a href="http://www.okhqb.com/item/1000126658.html?utml=home" target="_blank" class="sp-block link2">给你无线自由 </a>
+                    <p>&yen;238 </p>
+                </div>
+            </li>
+        
+            <li class="cifx fl">
+                <div class="mod-list3-l fl">
+                    <a href="http://www.okhqb.com/item/1000126525.html?utml=home" target="_blank"><img width="80" height="80" src="http://img6.hqbcdn.com/activity/3a/28/3a2869e93eb917a2806cef03acedf9db.png" alt=""/></a>
+                </div>
+                <div class="mod-list3-r fr">
+                    <a href="http://www.okhqb.com/item/1000126525.html?utml=home" target="_blank" class="sp-block link1">Fixate 神奇胶垫 </a>
+                    <a href="http://www.okhqb.com/item/1000126525.html?utml=home" target="_blank" class="sp-block link2">黑科技无痕吸附随手贴 </a>
+                    <p>&yen;21.9 </p>
+                </div>
+            </li>
+        
+            <li class="cifx fl">
+                <div class="mod-list3-l fl">
+                    <a href="http://www.okhqb.com/item/1000126337.html?utml=home" target="_blank"><img width="80" height="80" src="http://img11.hqbcdn.com/activity/1b/5c/1b5c7bf996beb058686da46c88b4b5a1.png" alt=""/></a>
+                </div>
+                <div class="mod-list3-r fr">
+                    <a href="http://www.okhqb.com/item/1000126337.html?utml=home" target="_blank" class="sp-block link1">JBL GO2 </a>
+                    <a href="http://www.okhqb.com/item/1000126337.html?utml=home" target="_blank" class="sp-block link2">IPX7防水 </a>
+                    <p>&yen;249 </p>
+                </div>
+            </li>
+        
+            <li class="cifx fl">
+                <div class="mod-list3-l fl">
+                    <a href="http://www.okhqb.com/item/1000126587.html?utml=home" target="_blank"><img width="80" height="80" src="http://img6.hqbcdn.com/activity/b1/05/b1059cf48575150c3f2e15e3018cdf93.png" alt=""/></a>
+                </div>
+                <div class="mod-list3-r fr">
+                    <a href="http://www.okhqb.com/item/1000126587.html?utml=home" target="_blank" class="sp-block link1">手持伸缩小风扇 </a>
+                    <a href="http://www.okhqb.com/item/1000126587.html?utml=home" target="_blank" class="sp-block link2">竹蜻蜓三合一 </a>
+                    <p>&yen;59 </p>
+                </div>
+            </li>
+        
+            <li class="cifx fl">
+                <div class="mod-list3-l fl">
+                    <a href="http://www.okhqb.com/item/1000126336.html?utml=home" target="_blank"><img width="80" height="80" src="http://img6.hqbcdn.com/activity/42/01/42010a72dd235548db96287a2d16e188.png" alt=""/></a>
+                </div>
+                <div class="mod-list3-r fr">
+                    <a href="http://www.okhqb.com/item/1000126336.html?utml=home" target="_blank" class="sp-block link1">迷你怀旧掌机 </a>
+                    <a href="http://www.okhqb.com/item/1000126336.html?utml=home" target="_blank" class="sp-block link2">霸王小子 致敬童年 </a>
+                    <p>&yen;86 </p>
+                </div>
+            </li>
+            </ul>
+</div>
+</div>
+<!-- 数码发现 -->
+<div class="w-1200" id="sec3">
+    <div class="mod-t cfix">
+        <h2 class="fl">2F&nbsp;数码发现</h2>
+        <p>
+            <span>为您推荐:</span>
+                            <a href="http://www.okhqb.com/list/74.html" target="_blank">手机贴膜</a>
+                            |<a href="http://www.okhqb.com/list/116.html" target="_blank">保护壳/套</a>
+                            |<a href="http://www.okhqb.com/search.html?q=%E8%80%B3%E6%9C%BA" target="_blank">热销耳机</a>
+                            |<a href="http://www.okhqb.com/list/245.html" target="_blank">智能家居</a>
+                            |<a href="http://www.okhqb.com/list/quwan.html" target="_blank">智能玩具</a>
+                    </p>
+    </div>
+    <!-- 广告图标 -->
+    <div class="digital cfix">
+
+        <div class="dig-l fl">
+            <a href="http://www.okhqb.com/item/1000126533.html?utml=smfx_01" target="_blank"><img width="594" height="240" src="http://img13.hqbcdn.com/activity/dd/21/dd212f320e0435445583187b7fe999c7.jpg" alt=""/></a>
+        </div>
+        <div class="dig-r fr">
+            <a href="http://www.okhqb.com/item/1000126561.html?utml=smfx_02" target="_blank"><img width="594" height="240" src="http://img13.hqbcdn.com/activity/0a/60/0a60b846ff5cee6c4034615e99323b17.jpg" alt=""/></a>
+        </div>
+    </div>
+    <!-- 商品列表 -->
+    <div class="mod mod-sm">
+        <div class="mod-list">
+            <ul class="cfix">
+                <li class="mod-list-1">
+                    <a href="http://www.okhqb.com/item/1000123543.html?utml=smfx_03" target="_blank"><img width="240" src="http://img13.hqbcdn.com/activity/8d/0b/8d0b54230ab3c06078133596c8badd74.jpg" alt=""/></a>
+                </li>
+                <li>
+                                            <div class="mod-item">
+                            <a href="http://www.okhqb.com/item/1000124889.html?utml=home" target="_blank">
+                                <img src="http://img14.hqbcdn.com/activity/23/7d/237daad83747387c4446ba1b8f7b2d95.jpg" alt=""/>
+                                <div class="mod-item-tips">
+                                    <p class="t1">吸入式瘦身能量棒</p>
+                                    <p class="t2">含绿茶左旋肉碱快速减脂</p>
+                                    <p class="t2">&yen;97</p>
+                                </div>
+                                                            </a>
+                        </div>
+                                            <div class="mod-item">
+                            <a href="http://www.okhqb.com/item/1000126637.html?utml=home" target="_blank">
+                                <img src="http://img1.hqbcdn.com/activity/a6/9a/a69a744f445c688f9bd457a802f3ab9d.jpg" alt=""/>
+                                <div class="mod-item-tips">
+                                    <p class="t1">金稻便携式电动修甲美甲仪</p>
+                                    <p class="t2">您的私人美甲店</p>
+                                    <p class="t2">&yen;79</p>
+                                </div>
+                                                            </a>
+                        </div>
+                                    </li>
+                                    <li>                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000126471.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img1.hqbcdn.com/product/1b/eb/1beb13a895b8a1c56fa3cc3acbad4862.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>78</i> <del>市场价:&yen;88</del> </p>
+                            <a href="http://www.okhqb.com/item/1000126471.html?utml=home" target="_blank" class="sp-block link1">Apple/苹果 lightning转3.5mm耳机插孔转接头 转接器 白色</a>
+                        </div>
+                    </div>
+                                                                            <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000125693.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img14.hqbcdn.com/product/7e/fe/7efebe813792b9a57d08fb3dc1ce8362.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>169</i> <del>市场价:&yen;199</del> </p>
+                            <a href="http://www.okhqb.com/item/1000125693.html?utml=home" target="_blank" class="sp-block link1">MI/小米 小米小爱音箱mini 白色 智能音箱 听音乐语音遥控家电 人工智能音箱 白色</a>
+                        </div>
+                    </div>
+                    </li>                                    <li>                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000117923.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img14.hqbcdn.com/product/b6/78/b67832549038ebd82f55242708f659be.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>88</i> <del>市场价:&yen;388</del> </p>
+                            <a href="http://www.okhqb.com/item/1000117923.html?utml=home" target="_blank" class="sp-block link1">Apple/苹果 Lightning数据线+5W 充电器 海淘手机配件 白色</a>
+                        </div>
+                    </div>
+                                                                            <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000125941.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img15.hqbcdn.com/product/0a/d3/0ad3e4d0a2ba4367e11ca9c983dc8bb2.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>88</i> <del>市场价:&yen;88</del> </p>
+                            <a href="http://www.okhqb.com/item/1000125941.html?utml=home" target="_blank" class="sp-block link1">SMARTOOOLS 超薄小巧手机移动电源轻便携迷你个性定制快充移动电源 火星5000毫安2.1A快充</a>
+                        </div>
+                    </div>
+                    </li>                                    <li>                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000125900.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img5.hqbcdn.com/product/a1/de/a1de2e326bf24d1042419dc41e6e5d42.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>128</i> <del>市场价:&yen;199</del> </p>
+                            <a href="http://www.okhqb.com/item/1000125900.html?utml=home" target="_blank" class="sp-block link1">Apple/苹果 EarPods iPhone 原装线控耳机 lightning接口 适用于iPhone7/8/X 白色</a>
+                        </div>
+                    </div>
+                                                                            <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000126433.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img2.hqbcdn.com/product/20/eb/20eb13a439767f045ba239c2731bb842.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>39</i> <del>市场价:&yen;49</del> </p>
+                            <a href="http://www.okhqb.com/item/1000126433.html?utml=home" target="_blank" class="sp-block link1">PRODA 阿卡奇 手机降温神器 吃鸡通用便携式散热游戏手柄 黑色</a>
+                        </div>
+                    </div>
+                    </li>                            </ul>
+        </div>
+        <!-- 国货精品底部列表 -->
+        <ul class="cfix mod-list mod-list2">
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000126549.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img12.hqbcdn.com/product/d4/40/d440092744264a0aa2b8fd38bd99d471.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>199</i> <del>市场价:&yen;199</del> </p>
+                            <a href="http://www.okhqb.com/item/1000126549.html?utml=home" target="_blank" class="sp-block link1">MI/小米 声波电动牙刷 家用智能成人防水充电声波震动牙刷 白色</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000125953.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img4.hqbcdn.com/product/0f/1d/0f1dc8f15e005c6cc865427f63b90c4b.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>136</i> <del>市场价:&yen;159</del> </p>
+                            <a href="http://www.okhqb.com/item/1000125953.html?utml=home" target="_blank" class="sp-block link1">MI/小米 原装无线充电器 苹果安卓通用Qi快充 零售版（带充电线）</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000125952.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img14.hqbcdn.com/product/55/13/5513edb7e4ce4495e9b06e1786982706.160.png" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>199</i> <del>市场价:&yen;199</del> </p>
+                            <a href="http://www.okhqb.com/item/1000125952.html?utml=home" target="_blank" class="sp-block link1">AMIRO 高清日光镜mini系列 化妆镜台式带灯 LED书桌台灯公主梳妆镜 白色充电版（AML004W）</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000123517.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img8.hqbcdn.com/product/99/ed/99ed1ed8f8143cc0459441cf272c1738.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>199</i> <del>市场价:&yen;299</del> </p>
+                            <a href="http://www.okhqb.com/item/1000123517.html?utml=home" target="_blank" class="sp-block link1">1MORE/万魔 iBFree蓝牙耳机 运动耳机 红色</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000126342.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img9.hqbcdn.com/product/f8/d9/f8d99e75bfc1310fba364e74d44e3b86.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>428</i> <del>市场价:&yen;499</del> </p>
+                            <a href="http://www.okhqb.com/item/1000126342.html?utml=home" target="_blank" class="sp-block link1">JBL Clip3 音乐盒三代 蓝牙便携音箱 低音炮 户外迷你小音响 防水设计 高保真无噪声通话 超长续航 庆典红</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000124782.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img11.hqbcdn.com/product/79/83/79830802efc6edda7277081cfe29b33c.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>29.9</i> <del>市场价:&yen;39</del> </p>
+                            <a href="http://www.okhqb.com/item/1000124782.html?utml=home" target="_blank" class="sp-block link1">bcase TUP2 新款数据线收纳器 磁吸固定器理线器 桌面整理 车载集线器 樱桃木色</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000126524.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img16.hqbcdn.com/product/f4/07/f407609405f9360d158c31e77e3dc569.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>57</i> <del>市场价:&yen;59</del> </p>
+                            <a href="http://www.okhqb.com/item/1000126524.html?utml=home" target="_blank" class="sp-block link1">3life 七彩变色兔子拍拍灯 创意卧室卡通硅胶护眼小夜灯 白色</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000126540.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img7.hqbcdn.com/product/e3/ab/e3ab1b3e456bdea13f08e0c75b139c2f.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>138</i> <del>市场价:&yen;158</del> </p>
+                            <a href="http://www.okhqb.com/item/1000126540.html?utml=home" target="_blank" class="sp-block link1">漫之绘 光学绘本第二代 临摹本画画本投影零基础绘画神器 礼盒装</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000126603.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img8.hqbcdn.com/product/99/b6/99b66c11e097aca9c5c9fbf5ab414742.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>29</i> <del>市场价:&yen;29</del> </p>
+                            <a href="http://www.okhqb.com/item/1000126603.html?utml=home" target="_blank" class="sp-block link1">新潮商品 苹果手表复古MAC支架 iwatch2/iwatch3硅胶充电底座 白色</a>
+                        </div>
+                    </div>
+                </li>
+                            <li>
+                    <div class="mod-item">
+                                                <div class="mod-img">
+                            <a href="http://www.okhqb.com/item/1000126504.html?utml=home" target="_blank">
+                                <img width="160" height="160" src="http://img1.hqbcdn.com/product/07/2e/072e3d2c59e6e5c06556f6cd6664d851.160.jpg" alt=""/>
+                            </a>
+                                                    </div>
+                        <div class="mod-info">
+                            <p>&yen; <i>499</i> <del>市场价:&yen;499</del> </p>
+                            <a href="http://www.okhqb.com/item/1000126504.html?utml=home" target="_blank" class="sp-block link1">Meizu/魅族 POP真无线蓝牙耳机 入耳式蓝牙运动耳机 无线充电 皓月白</a>
+                        </div>
+                    </div>
+                </li>
+                    </ul>
+    </div>
+</div>
+</div>
+<!-- 保障 -->
+<div class="gua">
+    <div class="w-1200">
+        <img width="1200" height="90" src="http://s.hqbcdn.com/assets/v4/images/newindex/guarantee.png" alt=""/>
+    </div>
+</div>
+<!-- 导航栏 -->
+<div class="ok-nav">
+    <a href="javascript:;" class="bold nav-l" data-sec="sec1"><span>今日精选</span></a>
+    <a href="javascript:;" class="nav-l" data-sec="sec2"><span>1F&nbsp;淘机馆</span></a>
+    <a href="javascript:;" class="nav-l" data-sec="sec3"><span>2F&nbsp;数码发现</span></a>
+            <a href="javascript:;" class="code-box">
+            <p class="code-h1">华强北商城</p>
+            <p class="code-h2">微信公众号</p>
+            <span><img width="88" height="88" src="http://img4.hqbcdn.com/activity/f4/1f/f41f4827345255a89cb5898fbeaf3474.jpg" alt=""/></span>
+            <!--<span class="code-text">下载 <br/>数一数二APP <br/>首单立减10元</span>-->
+        </a>
+        <a href="#" class="ok-bak nav-l"><span>︿</span></a>
+</div>
+
+<script>
+    $(function(){
+        var HOME = {
+            init:function(){
+                this.controller();
+                this.loadImage();
+                this.navResize();
+                this.navShow();
+            },
+            controller: function(){
+                $('.ok-slide-bd').slides({
+                    play: 5000,
+                    pause: 2500,
+                    preload: false,
+                    hoverPause: true,
+                    generateNextPrev: true,
+                    next: 'nextSlide',
+                    prev: 'prevSlide',
+                    slidesLoaded: function () {
+                        var $parent = $('.' + this.container),
+                            _w = $parent.width();
+                        $parent.find('li').width(_w);
+                    }
+                });
+                $('.ok-slide-bd').hover(function () {
+                    $(this).find('.prevSlide').show();
+                    $(this).find('.nextSlide').show();
+                }, function () {
+                    $(this).find('.prevSlide').hide();
+                    $(this).find('.nextSlide').hide();
+                });
+
+
+                $('.nav-item').hover(function(){
+                    HOME.consultation($(this));
+                }, function(){
+                    HOME.consultation($(this));
+                });
+
+
+                $('.sale-time').each(function(){
+
+                    var $this = $(this),
+                        $times = $this.attr('data-time');
+
+                    if($times > 0){
+
+                        HOME.timeClock($this.find('.sp-iblock'), $times);
+
+                    }
+
+                });
+
+                $('.sp-list a').hover(function(){
+                    var $i = $(this).find('i'),
+                        $img = $i.attr('data-img').split('|');
+                    $i.attr('style', 'background:url('+$img[1]+') no-repeat center center');
+                }, function(){
+                    var $i = $(this).find('i'),
+                        $img = $i.attr('data-img').split('|');
+                    $i.attr('style', 'background:url('+$img[0]+') no-repeat center center');
+                });
+
+
+                $('.nav-l').live('click',function(){
+                    var $this = $(this),
+                        sec = $this.attr('data-sec'),
+                        pos = $('#'+sec).offset().top;
+
+                    $('html, body').animate({'scrollTop': pos+'px'}, 500);
+
+                });
+
+            },
+            navResize: function(){
+                var w = $(window).outerWidth(true),
+                // ol = $('#sec1').offset().left,
+                    codeBox = $('.code-box'),
+                    code = codeBox.length > 0 ? $('.code-box').find('img').attr('src') : '',
+                    str = '';
+
+                if( w < 1420 ){
+                    str = '<a href="javascript:;" class="bold nav-l" data-sec="sec1"><span>今日精选</span></a>';
+                    str += '<a href="javascript:;" class="nav-l" data-sec="sec2"><span>1F<br/>淘机馆</span></a>';
+                    str += '<a href="javascript:;" class="nav-l" data-sec="sec3"><span>2F<br/>数码</span></a>';
+
+                    if(codeBox.length > 0 ){
+                        str += '<a href="javascript:;" class="code-box">';
+                        str += '<span><i>华强北商城</i>微信公众号</span>';
+                        str += '<span class="code"><i></i><img width="88" height="88" src="'+code+'" alt=""/></span></a>';
+                    }
+
+                    str += '<a href="#" class="ok-bak nav-l"><span>︿</span></a>';
+
+                    $('.ok-nav').addClass('nav-small').html(str);
+
+                    $('.code-box').hover(function(){
+                        $('.code').show();
+                    }, function(){
+                        $('.code').hide();
+                    });
+                }
+
+            },
+            navShow: function(){
+                var $w = $(window),
+                    $pos = $('#sec1').position().top - 20,
+                    $nav = $('.ok-nav'),
+                    isFlag = true,
+                    sec1 = $('#sec1').offset().top,
+                    sec2 = $('#sec2').offset().top,
+                    sec3 = $('#sec3').offset().top,
+                    h1 = $('#sec1').outerHeight(true),
+                    h2 = $('#sec2').outerHeight(true),
+                    h3 = $('#sec3').outerHeight(true),
+                    st = 0;
+
+                $w.scroll(function(){
+                    st = $(this).scrollTop();
+
+                    if(st > $pos){
+                        if(isFlag){
+                            $nav.show();
+                            isFlag = false;
+                        }
+                    }else{
+                        if(!isFlag){
+                            $nav.hide();
+                            isFlag = true;
+                        }
+                    }
+
+                    if(st >=sec1 && st < (sec1+h1)){
+                        navLight(0);
+                    }else if(st >=sec2 && st < (sec2+h2)){
+                        navLight(1);
+                    }else if(st >=sec3) {
+                        navLight(2);
+                    }
+
+                });
+
+                function navLight(n){
+                    var $item = $('.ok-nav a');
+                    $item.removeClass('on');
+                    $item.eq(n).addClass('on');
+                }
+            },
+            consultation: function(obj){
+                var $navItem = $('.nav-item');
+                $navItem.removeClass('on');
+                obj.addClass('on');
+            },
+            timeClock: function(obj, $times){
+                obj.timer = setInterval(function(){
+                    if($times <= 0){
+                        clearInterval(obj.timer);
+                        obj.parents('.sale-info').find('.sp-buy').css({'background':'#ccc', 'color':'#fff'}).html('抢购结束');
+                        return false;
+                    }
+                    $times--;
+                    var 
+                        h=parseInt($times%86400/3600),
+                        f=parseInt($times%86400%3600/60),
+                        s=parseInt($times%86400%3600%60);
+
+
+                    h = h >= 10 ? h : '0'+h;
+                    f = f >= 10 ? f : '0'+f;
+                    s = s >= 10 ? s : '0'+s;
+
+                    obj.html('<span>'+ h.toString().substring(0, 1)+'</span><span>'+ h.toString().substring(1)+'</span>:<span>'+ f.toString().substring(0,1)+'</span><span>'+ f.toString().substring(1)+'</span>:<span>'+ s.toString().substring(0, 1)+'</span><span>'+ s.toString().substring(1)+'</span>');
+
+                }, 1000);
+            },
+            loadImage: function(){
+                $('.lazy').lazyload({
+                    threshold: 200,
+                    time: 200,
+                    effect: 'fadeIn'
+                });
+            }
+        };
+
+        HOME.init();
+
+
+    });
+</script>
+<script>
+    $(function () {
+
+    (function newGuideLayer() {
+        var guideLayer = function () {
+            var _html = '<div class="wx-wrap"><div class="wx-body"><a href="javascript:;" class="wx-close"></a><a href="http://stopic.okhqb.com/xcx.html?utml=xcxtc" target="_blank" class="wx-link">立即领取</a></div></div>';
+            $('body').append(_html);
+            $('.wx-close, .wx-link').click(function () {
+                $('.wx-wrap').hide();
+            });
+        };
+        //取cookies函数
+        function getCookie(name) {
+            var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+            if (arr != null) return unescape(arr[2]);
+            return null;
+        }
+
+        function setXCXCookie() {
+            var date = new Date();
+            date.setTime(date.getTime()+14*24*3600*1000);
+            document.cookie="_okxcx=1;domain=.okhqb.com;expires="+date.toGMTString();
+        }
+        var a = getCookie('_okxcx');
+       if (!a) {
+                guideLayer();
+                setXCXCookie();
+            }
+        }());
+
+
+
+       /* (function newGuideLayer() {
+            var guideLayer = function () {
+                var _html = '<div class="new-user-wrap"><div class="user-body"><a href="javascript:;" class="user-close"></a><a href="http://stopic.okhqb.com/xinren2016.html?utml=sytc" target="_blank" class="user-link">立即领取</a></div></div>';
+                $('body').append(_html);
+                $('.user-close, .user-link').click(function () {
+                    $('.new-user-wrap').hide();
+                });
+            };
+            //取cookies函数
+            function getCookie(name) {
+                var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+                if (arr != null) return unescape(arr[2]);
+                return null;
+            }
+
+            var a = getCookie('_okbia');
+            if (!a) {
+                guideLayer();
+            }
+        }());*/
+    });
+
+</script>
+<script type="text/javascript" src="http://s1.hqbcdn.com/??assets/v4/script/listScroll.js,assets/v4/script/muiToolBar-1.0.0.js?t=20180521"></script>
+<!--最新改版(20160819)-->
+<div class="index-bottom">
+    <div class="bottom-box cfix">
+        <div class="bottom-box-left">
+            <!-- <img src="images/appCode.jpg" width="116" height="116">-->
+            <div class="bottom-app-code"></div>
+            <p>华强北商城</p>
+            <p>微信公众号</p>
+        </div>
+        <div class="bottom-box-center">
+            <ul class="box-center">
+                <li>
+                    <h3>新手指南</h3>
+                    <a href="http://www.okhqb.com/help/index/1_59.html" target="_blank">找回密码</a>
+                    <a href="http://www.okhqb.com/help/index/1_28.html" target="_blank">注册账号</a>
+                    <a href="http://www.okhqb.com/help/index/1_13.html" target="_blank">交易条款</a>
+                </li>
+                <li>
+                    <h3>支付配送</h3>
+                    <a href="http://www.okhqb.com/help/index/51_1000000119.html" target="_blank">网上支付</a>
+                    <a href="http://www.okhqb.com/help/index/1000000065_1000000125.html" target="_blank">配送运费</a>
+                    <a href="http://www.okhqb.com/help/index/1000000065_1000000124.html" target="_blank">配送方式</a>
+                </li>
+                <li>
+                    <h3>售后服务</h3>
+                    <a href="http://www.okhqb.com/help/index/1000000066_1000000129.html" target="_blank">售后政策</a>
+                    <a href="http://www.okhqb.com/help/index/1000000066_1000000130.html" target="_blank">售后流程</a>
+                    <a href="http://www.okhqb.com/help/index/1000000066_1000000131.html" target="_blank">售后申请</a>
+                </li>
+                <li>
+                    <h3>关于我们</h3>
+                    <a href="http://www.okhqb.com/about/about" target="_blank">公司介绍</a>
+                    <a href="http://www.okhqb.com/about/yssm" target="_blank">隐私声明</a>
+                    <a href="http://www.okhqb.com/about/hr" target="_blank">招贤纳士</a>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-box-right cfix">
+            <div class="contact-us">
+                <h3>联系我们</h3>
+                <p>客服热线：0755-88698888</p>              
+                <!--<p>工作日：9:00-20:00</p>-->
+                <div class="gb-okhqb-yj contact-advice">
+                    <span class="okhqb_feed">意见反馈</span>
+                </div>
+            </div>
+            <div class="attention-us cfix">
+                <h3>关注我们</h3>
+                <div class="weiXin">
+                    <div class="weiXinCode"></div>
+                </div>
+                <div class="weiBo">
+                    <div class="weiBoCode"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gb-okhqb-rz">
+    <p class="gb-okhqb-link">
+        <a href="http://www.okhqb.com/">华强北商城</a>|
+        <a href="http://www.okhqb.com/">华强北</a>|
+        <a href="http://www.okhqb.com/">深圳华强北</a>|
+        <a href="http://www.okhqb.com/news" target="_blank" style="color:red; font-weight:bold">热点资讯</a>|
+        <a href="http://www.okhqb.com/link" target="_blank">友情链接</a>|
+        <a href="http://www.okhqb.com/sitemap.html" target="_blank">网站地图</a>|
+        <a href="http://www.okhqb.com/gonghuo.html" target="_blank" style="color:red; font-weight:bold;font-family: '宋体';">商家入驻/集团采购</a>|
+        <a href="http://www.okhqb.com/help.html" target="_blank">帮助中心</a>
+    </p>
+    <p class="gb-okhqb-copy">Copyright © 2010-2016 深圳市华强北在线商务有限公司 版权所有 <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备12050212号-1</a></p>
+    <p class="gb-okhqb-jd okhqb-footer-link">
+        <a class="wj_btn" href="http://www.sznet110.gov.cn" target="_blank" rel="nofollow"></a>
+        <a class="dx_btn" href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow"></a>
+        <a class="sc_btn" href="http://www.ebs.gov.cn/EntCertificate.aspx?mainId=bc682492-860c-4d99-9130-b66ab75bcbf2" target="_blank" rel="nofollow"></a>
+        <a class="gl_btn" href="http://www.szscjg.gov.cn/" target="_blank" rel="nofollow"></a>
+        <!--<a class="sm" href="http://www.anquan.org/authenticate/cert/?site=www.okhqb.com&amp;at=realname" target="_blank"></a>-->
+        
+        <a href="https://credit.szfw.org/CX20160908025325020138.html" target="_blank" oncontextmenu = "return false;" style="background: none;"><img style="display: block;margin-top: 5px;*margin-left: 5px;" src="http://icon.szfw.org/cert.png" border='0' /></a>
+        <a style="background: none;" href="http://szcert.ebs.org.cn/bc682492-860c-4d99-9130-b66ab75bcbf2" target="_blank"><img src="http://szcert.ebs.org.cn/Images/newGovIcon.gif" title="深圳市市场监督管理局企业主体身份公示" alt="深圳市市场监督管理局企业主体身份公示" style="display:block;" height="50" width="128"></a>
+    </p>
+</div>
+<!--最新改版(20160819)-->
+
+<!-- 反馈弹出框 -->
+<div class="feedback cfix">
+    <div class="help_offer_1 cfix">
+        <textarea name="inquiry_remark" cols="" rows="" id="inquiry_remark" style="color: rgb(204, 204, 204);">请输入您对我们网站有什么意见或建议，您的反馈将帮助我们更好的为您服务！</textarea>
+        <input type="text" style="color: rgb(204, 204, 204);" name="inquiry_email" id="inquiry_email" value="请您填写您的邮箱" class="w_e_mail" placeholder="请您填写您的邮箱">
+        <input class="help_tijiao" id="u_inquiry_submit" name="" value="">
+    </div>
+</div>
+<!-- 反馈弹出框 end -->
+<script src="http://s1.hqbcdn.com/??assets/v4/script/login.auth.js,assets/v4/script/public.js?t=20160119" type="text/javascript"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?17af4b798d3fc0a6ef6f4ffc9cbd1e88";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+    function gao(p) {
+        return (typeof(p)).toLowerCase() == "string" && p !== ""
+    }
+    function getGaCookie(r) {
+        var q, p;
+        if (gao(r)) {
+            if ((p = String(document.cookie).match(new RegExp("(?:^| )" + r + "(?:(?:=([^;]*))|;|$)")))) {
+                q = p[1] ? p[1] : ""
+            }
+        }
+        return q
+    }
+    var gmemberid=0;
+    var authstr = getGaCookie('auth');
+    if (authstr) {
+        authstr = eval("("+authstr+")");
+        authstr = eval("("+authstr+")");
+        gmemberid = authstr.member_id;
+    }
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-30148206-1', 'okhqb.com');
+    ga('set', 'UA-30148206-1',  {'userId': gmemberid });
+    ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+    var _adwq = _adwq || [];
+    _adwq.push(['_setAccount', 'jw99x']);
+    _adwq.push(['_setDomainName', '.okhqb.com']);
+    _adwq.push(['_trackPageview']);
+
+    var _mvq = _mvq || [];
+    _mvq.push(['$setAccount', 'm-354-1']);
+
+    _mvq.push(['$logConversion']);
+    (function() {
+        var mvl = document.createElement('script');
+        mvl.type = 'text/javascript'; mvl.async = true;
+        mvl.src = ('https:' == document.location.protocol ? 'https://static-ssl.mediav.com/mvl.js' : 'http://static.mediav.com/mvl.js');
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(mvl, s);
+    })();
+    (function(){
+
+        var Referer = document.referrer;
+        var yiqifaCookie = $.cookie('yiqifa_cps_okhqb');
+        var yqab = $.cookie('yqab');
+        try{
+            if(!yqab && Referer != '' && Referer.indexOf('okhqb.com') < 0 && yiqifaCookie ){
+                $.cookie(
+                    'yiqifa_cps_okhqb',
+                    null,
+                    {
+                        path: '/',
+                        domain: '.okhqb.com',
+                        expires: -1
+                    }
+                );
+            }
+            $.cookie('yqab',null,{path: '/', domain: '.okhqb.com',expires: -1});
+        }catch(e){}
+
+    })();
+</script>
+<script type="text/javascript">
+    // 360流量统计 -- 20160305
+    var _mvq = _mvq || [];
+    _mvq.push(['$setAccount', 'm-211723-0']);
+    _mvq.push(['$logConversion']);
+    (function() {
+        var mvl = document.createElement('script');
+        mvl.type = 'text/javascript'; mvl.async = true;
+        mvl.src = ('https:' == document.location.protocol ? 'https://static-ssl.mediav.com/mvl.js' : 'http://static.mediav.com/mvl.js');
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(mvl, s);
+    })();
+</script>
+<noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1000098639/?value=0&amp;label=LJ36CNGSggQQz5bx3AM&amp;guid=ON&amp;script=0"/></div></noscript>
+<script  type="text/javascript">
+    (function() {
+        var s = document.createElement('script');
+        var sparentNode =  document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = 'true';
+        s.src = 'http://a.okhqb.com/plus/ok.js?t=20140708';
+        if(sparentNode)sparentNode.parentNode.insertBefore(s,sparentNode);
+    })();
+</script>
+<!-- 工商网网监电子标识代码 20161008 -->
+<!--<script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>-->
+
+<script type="text/javascript" src="http://widget.wumii.cn/ext/widget/retarget"></script>
+<script src="https://www.sobot.com/chat/frame/js/entrance.js?sysNum=f21c5dd2ebe04583a93a6b2b297e69da" class="zhiCustomBtn" id="zhichiScript" data-args="属性名1=属性值1&属性名2=属性值2"></script></body>
+</html>
