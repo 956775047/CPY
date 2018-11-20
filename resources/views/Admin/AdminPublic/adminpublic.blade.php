@@ -231,6 +231,10 @@
                         <ul class="closed">
                             <li><a href="/adminsuser/create">管理员添加</a></li>
                             <li><a href="/adminsuser">管理员列表</a></li>
+                            <li><a href="/admin_userss/create">角色添加</a></li>
+                            <li><a href="/admin_userss">角色列表</a></li>
+                            <li><a href="/authlist/create">权限添加</a></li>
+                            <li><a href="/authlist">权限列表</a></li>
                         </ul>
                     </li>
 
@@ -249,7 +253,13 @@
                             <li><a href="/admincate">分类列表</a></li>
                         </ul>
                     </li>
-
+                    <li>
+                        <a href="#"><i class="icon-user"></i>轮播图管理</a>
+                        <ul class="closed">
+                            <li><a href="/change/create">轮播图添加</a></li>
+                            <li><a href="/change">轮播图列表</a></li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="#"><i class="icon-file"></i> 精选管理</a>
                         <ul class="closed">
@@ -263,6 +273,47 @@
                         <ul class="closed">
                             <li><a href="/adminshop/create">商品添加</a></li>
                             <li><a href="/adminshop">商品列表</a></li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#"><i class="icon-file"></i> 公告管理</a>
+                        <ul class="closed">
+                            <li><a href="//adminannource/create">公告添加</a></li>
+                            <li><a href="/adminannource">公告列表</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-file"></i> 友情链接管理</a>
+                        <ul class="closed">
+                            <li><a href="/adminlink">友情链接列表</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-file"></i> 广告管理</a>
+                        <ul class="closed">
+                            <li><a href="/adminad/create">广告添加</a></li>
+                            <li><a href="/adminad">广告列表</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-file"></i> 优惠管理</a>
+                        <ul class="closed">
+                            <li><a href="/adminfavorable/create">优惠添加</a></li>
+                            <li><a href="/adminfavorable">优惠列表</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-file"></i> 二手商品管理</a>
+                        <ul class="closed">
+                            <li><a href="/adminsecondhand/create">二手商品添加</a></li>
+                            <li><a href="/adminsecondhand">二手商品列表</a></li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#"><i class="icon-file"></i> 二精管理</a>
+                        <ul class="closed">
+                            <li><a href="/adminsecondhand1/create">二精添加</a></li>
+                            <li><a href="/adminsecondhand1">二精列表</a></li>
                         </ul>
                     </li>
                 </ul>

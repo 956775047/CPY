@@ -30,11 +30,15 @@
 <div id="toolbar-bg">
     <div class="toolbar">
         <div class="toolbar-left">
-            <p class="unlogin dc-unlogin"><a href="http://login.okhqb.com/member/login.html" rel="nofollow" class="nav-bold">您好!&nbsp;请登录</a>&nbsp;<i>|</i>&nbsp;<a href="http://login.okhqb.com/member/register.html" rel="nofollow" class="nav-bold" style="color: #686868">注册</a></p>
-            <p class="logined dc-logined">
-                您好&nbsp;,<a href="http://my.okhqb.com/my/home.html" rel="nofollow" class="nav-bold dc-nav-user" target="_blank">&nbsp;</a>&nbsp;,欢迎来到华强北商城！|&nbsp;
+            @if(empty(session('name')))
+                <p class="unlogin dc-unlogin"><a href="/login" rel="nofollow" class="nav-bold">您好!&nbsp;请登录</a>&nbsp;<i>|</i>&nbsp;<a href="/register" rel="nofollow" class="nav-bold" style="color: #686868">注册</a></p>
+            @else
+               <!--  <p class="logined dc-logined">
+                您好&nbsp;,{{session('name')}}<a href="http://my.okhqb.com/my/home.html" rel="nofollow" class="nav-bold dc-nav-user" target="_blank">&nbsp;</a>&nbsp;,欢迎来到华强北商城！|&nbsp;
                 <a href="http://www.okhqb.com/member/logout.html" rel="nofollow">退出</a>
-            </p>
+                </p> -->
+                <p class="unlogin dc-unlogin"><a href="" rel="nofollow" class="nav-bold">您好!&nbsp;{{session('name')}}</a>&nbsp;<i>|</i>&nbsp;<a href="/outlogin" rel="nofollow" class="nav-bold" style="color: #686868">退出</a></p>
+            @endif
         </div>
         <div class="toolbar-right">
             <ul class="toolbar-right-list">
@@ -115,126 +119,30 @@
         <li class="type-nav"><a href="javascript:void(0);" id="sale-list"><i class="list-icon-v2"></i>商品分类</a></li>
         <li class="sub-list"><a href="http://www.okhqb.com" target="_blank">首页</a></li>
         <li class="sub-list"><a href="http://www.okhqb.com/haiwai.html?utml=dh_haiwai" target="_blank">海外淘</a> </li>
-        <li class="sub-list"><a href="http://www.okhqb.com/shouji.html?utml=dh_shoujihui" target="_blank">手机惠</a></li>
+        <li class="sub-list"><a href="/favorable" target="_blank">优惠</a></li>
         <li class="sub-list"><a href="http://www.okhqb.com/shuma.html?utml=dh_shuma" target="_blank">数码港</a></li>
-        <li class="sub-list"><a href="http://stopic.okhqb.com/youpin.html?utml=dh_youpin" target="_blank">二手优品</a></li>
+        <li class="sub-list"><a href="/secondhand" target="_blank">二手优品</a></li>
         <li class="sub-list sub-list-ensure"><a href="http://stopic.okhqb.com/genuine.html?utml=top_zhengpin" target="_blank"></a></li>
 
     </ul>
-    <div class="sale-list-wrapper cfix">
+        <div class="sale-list-wrapper cfix">
         <div class="sale-list-nav">
             <dl>
-                <dt><span class="list-nav-icon1"></span>手机通讯<i></i></dt>
-                <dt><span class="list-nav-icon2"></span>苹果专区<i></i></dt>
-                <dt><span class="list-nav-icon3"></span>手机配件<i></i></dt>
-                <dt><span class="list-nav-icon5"></span>视听/数码配件<i></i></dt>
-                <dt><span class="list-nav-icon4"></span>电脑办公<i></i></dt>
-                <dt><span class="list-nav-icon6"></span>智能/生活<i></i></dt>
-                <dt><span class="list-nav-icon7"></span>摄影摄像<i></i></dt>
-                <!-- <dt><span class="list-nav-icon8"></span>电子教育<i></i></dt>-->
-                <dt><span class="list-nav-icon9"></span>游戏/周边<i></i></dt>
+             @foreach($cate as $row)
+                   @if($row->id!=28 && $row->id!=40 && $row->id!=41)<dt><span class="list-nav-icon1"></span>{{$row->name}}<i></i></dt>@endif
+             @endforeach
             </dl>
         </div>
         <!-- 手机通讯 -->
+        @foreach($cate as $row)
+          @foreach($row->suv as $rows)
         <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/137-2440_11813--1-.html?utml=zsfenlei" target="_blank">华为</a>
-            <a href="http://www.okhqb.com/list/137-2440_25143--1-.html?utml=zsfenlei" target="_blank">魅族</a>
-            <a href="http://www.okhqb.com/list/137-2440_1300009820--1-.html?utml=zsfenlei" target="_blank">小米</a>
-            <a href="http://www.okhqb.com/list/137-2440_81156--1-.html?utml=zsfenlei" target="_blank">三星</a>
-            <a href="http://www.okhqb.com/list/137-2440_11542--1-.html?utml=zsfenlei" target="_blank">酷派</a>
-            <a href="http://www.okhqb.com/list/137-2440_1300011166--1-.html?utml=zsfenlei" target="_blank">乐视</a>
-            <a href="http://www.okhqb.com/list/137-2440_1300015465--1-.html?utml=zsfenlei" target="_blank">美图</a>
-            <a href="http://www.okhqb.com/list/137-2440_11119--1-.html?utml=zsfenlei" target="_blank">联想</a>
-            <a href="http://www.okhqb.com/list/137-2440_33564--1-.html?utml=zsfenlei" target="_blank">诺基亚</a>
-            <a href="http://www.okhqb.com/list/137.html?utml=zsfenlei" target="_blank">更多>></a>
+       
+            <a href="/list/{{$rows->id}}" target="_blank">{{$rows->name}}</a>
         </div>
-        <!-- 苹果专区 -->
-        <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/137-2440_30111--1-.html?utml=zsfenlei" target="_blank">iPhone</a>
-            <a href="http://www.okhqb.com/search.html?q=ipad&utml=zsfenlei" target="_blank">iPad</a>
-            <a href="http://www.okhqb.com/search.html?q=ipod&utml=zsfenlei" target="_blank">iPod</a>
-            <a href="http://www.okhqb.com/search.html?q=macbook&utml=zsfenlei" target="_blank">Mac</a>
-            <a href="http://www.okhqb.com/list/74-4535_30111--1-.html?utml=zsfenlei" target="_blank">iPhone贴膜</a>
-            <a href="http://www.okhqb.com/search.html?q=iphone%E4%BF%9D%E6%8A%A4%E5%A5%97%2F%E5%A3%B3&utml=zsfenlei" target="_blank">iPhone保护壳</a>
-            <a href="http://www.okhqb.com/search.html?q=ipad%E8%B4%B4%E8%86%9C|&utml=zsfenlei" target="_blank">iPad贴膜</a>
-            <a href="http://www.okhqb.com/search.html?q=iPad%E4%BF%9D%E6%8A%A4%E5%A3%B3&utml=zsfenlei" target="_blank">iPad保护壳</a>
-            <a href="http://www.okhqb.com/list/388.html?utml=zsfenlei" target="_blank">苹果原装配件</a>
-        </div>
-        <!-- 手机配件 -->
-        <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/116.html?utml=zsfenlei" target="_blank">保护套/壳</a>
-            <a href="http://www.okhqb.com/list/74.html?utml=zsfenlei" target="_blank">手机贴膜</a>
-            <a href="http://www.okhqb.com/list/214.html?utml=zsfenlei" target="_blank">充电器/数据线</a>
-            <a href="http://www.okhqb.com/list/131.html?utml=zsfenlei" target="_blank">移动电源</a>
-            <a href="http://www.okhqb.com/list/248.html?utml=zsfenlei" target="_blank">创意配件</a>
-            <a href="http://www.okhqb.com/list/43.html?utml=zsfenlei" target="_blank">蓝牙耳机</a>
-        </div>
-        <!-- 视听/数码配件 -->
-        <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/erji.html?utml=zsfenlei" target="_blank">耳机耳麦</a>
-            <a href="http://www.okhqb.com/list/171.html?utml=zsfenlei" target="_blank">音箱/音响</a>
-            <a href="http://www.okhqb.com/list/6.html?utml=zsfenlei" target="_blank">投影仪</a>
-            <a href="http://www.okhqb.com/list/521.html?utml=zsfenlei" target="_blank">影音播放器</a>
-            <a href="http://www.okhqb.com/list/202.html?utml=zsfenlei" target="_blank">网络盒子</a>
-            <a href="http://www.okhqb.com/list/146.html?utml=zsfenlei" target="_blank">存储卡</a>
-            <a href="http://www.okhqb.com/list/111.html?utml=zsfenlei" target="_blank">影音配件</a>
-        </div>
-        <!-- 电脑办公 -->
-        <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/299.html?utml=zsfenlei" target="_blank">平板/笔记本</a>
-            <a href="http://www.okhqb.com/list/25.html?utml=zsfenlei" target="_blank">一体机</a>
-            <a href="http://www.okhqb.com/list/230.html?utml=zsfenlei" target="_blank">打印机/耗材</a>
-            <a href="http://www.okhqb.com/list/Memory.html?utml=zsfenlei" target="_blank">移动硬盘</a>
-            <a href="http://www.okhqb.com/list/99.html?utml=zsfenlei" target="_blank">U盘</a>
-            <a href="http://www.okhqb.com/list/41.html?utml=zsfenlei" target="_blank">鼠标</a>
-            <a href="http://www.okhqb.com/list/179.html?utml=zsfenlei" target="_blank">键盘/套装</a>
-            <a href="http://www.okhqb.com/list/165.html?utml=zsfenlei" target="_blank">散热器</a>
-            <a href="http://www.okhqb.com/list/242.html?utml=zsfenlei" target="_blank">路由器</a>
-            <a href="http://www.okhqb.com/list/game.html?utml=zsfenlei" target="_blank">电源插座</a>
-            <a href="http://www.okhqb.com/list/113.html?utml=zsfenlei" target="_blank">电脑工具</a>
-        </div>
-        <!-- 智能/生活 -->
-        <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/235.html?utml=zsfenlei" target="_blank">智能穿戴</a>
-            <a href="http://www.okhqb.com/list/245.html?utml=zdfenlei" target="_blank">智能家居</a>
-            <a href="http://www.okhqb.com/list/qs.html?utml=zsfenlei" target="_blank">小家电</a>
-            <a href="http://www.okhqb.com/list/665.html?utml=zsfenlei" target="_blank">健康监测</a>
-            <a href="http://www.okhqb.com/list/404.html?utml=zsfenlei" target="_blank">户外运动</a>
-            <a href="http://www.okhqb.com/list/100.html?utml=zsfenlei" target="_blank">无人机</a>
-            <a href="http://www.okhqb.com/list/188.html?utml=zsfenlei" target="_blank">汽车用品</a>
-            <a href="http://www.okhqb.com/list/122.html?utml=zsfenlei" target="_blank">智能机器人</a>
-            <a href="http://www.okhqb.com/list/quwan.html?utml=zsfenlei" target="_blank">益智玩具</a>
-        </div>
-        <!-- 摄影摄像 -->
-        <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/50.html?utml=zdfenlei" target="_blank">摄像机</a>
-            <a href="http://www.okhqb.com/list/151.html?utml=zdfenlei" target="_blank">单反相机</a>
-            <a href="http://www.okhqb.com/list/175.html?utml=zdfenlei" target="_blank">单电/微单相机</a>
-            <a href="http://www.okhqb.com/list/61.html?utml=zdfenlei" target="_blank">数码相机</a>
-            <a href="http://www.okhqb.com/list/58.html?utml=zdfenlei" target="_blank">运动相机</a>
-            <a href="http://www.okhqb.com/list/247.html?utml=zdfenlei" target="_blank">拍立得</a>
-            <a href="http://www.okhqb.com/list/119.html?utml=zdfenlei" target="_blank">镜头</a>
-            <a href="http://www.okhqb.com/list/266.html?utml=zdfenlei" target="_blank">摄影配件</a>
-        </div>
-        <!--&lt;!&ndash; 电子教育 &ndash;&gt;--
-        <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/quwan.html?utml=zdfenlei" target="_blank">智能玩具</a>
-            <a href="http://www.okhqb.com/list/247.html?utml=zsfenlei" target="_blank">智能手表</a>
-            <a href="http://www.okhqb.com/list/266.html?utml=zsfenlei" target="_blank">智能手环</a>
-            <a href="http://www.okhqb.com/list/qs.html?utml=zsfenlei" target="_blank">智能清洁</a>
-            <a href="http://www.okhqb.com/list/701.html?utml=zsfenlei" target="_blank">个护健康</a>
-            <a href="http://www.okhqb.com/list/138.html?utml=zsfenlei" target="_blank">加湿器</a>
-        </div>
-        <!--&lt;!&ndash; 游戏/周边 &ndash;&gt;-->
-        <div class="sale-list-item">
-            <a href="http://www.okhqb.com/list/726.html?utml=zsfenlei" target="_blank">游戏主机</a>
-            <a href="http://www.okhqb.com/list/725.html?utml=zdfenlei" target="_blank">游戏手柄</a>
-            <a href="http://www.okhqb.com/list/722.html?utml=zdfenlei" target="_blank">游戏控制器</a>
-            <a href="http://www.okhqb.com/list/723.html?utml=zdfenlei" target="_blank">游戏软件</a>
-            <a href="http://www.okhqb.com/list/724.html?utml=zdfenlei" target="_blank">配件/其他</a>
-        </div>
+          @endforeach
+        @endforeach
     </div>
-</div>
 <div class="ok-body">
 <!-- banner -->
 <!-- 轮播图 -->
@@ -440,7 +348,7 @@
         <a href="http://www.okhqb.com/">华强北</a>|
         <a href="http://www.okhqb.com/">深圳华强北</a>|
         <a href="http://www.okhqb.com/news" target="_blank" style="color:red; font-weight:bold">热点资讯</a>|
-        <a href="http://www.okhqb.com/link" target="_blank">友情链接</a>|
+        <a href="/link" target="_blank">友情链接</a>|
         <a href="http://www.okhqb.com/sitemap.html" target="_blank">网站地图</a>|
         <a href="http://www.okhqb.com/gonghuo.html" target="_blank" style="color:red; font-weight:bold;font-family: '宋体';">商家入驻/集团采购</a>|
         <a href="http://www.okhqb.com/help.html" target="_blank">帮助中心</a>

@@ -75,7 +75,7 @@
 <!--E header -->
 <!--S main -->
 <input type="hidden" id="order-times" value="1577" />
-<form action="http://buy.okhqb.com/buy/payment.html" method="post" target="_blank" id="order-form" autocomplete="off">
+<form action="/pay" method="get" target="_blank" id="order-form" autocomplete="off">
 <div class="order-box order-main">
 <div class="order-time"><i class="order-time-icon"></i><span
         class="order-time-text">商品库存有限，请在<i>59分59秒</i>内提交订单</span></div>
@@ -86,6 +86,7 @@
             </h3>
     <div class="address-content">
         <ul class="address-list">
+            <li>111111</li>
                     </ul>
         <div class="address-all-show">
                     </div>
@@ -107,25 +108,13 @@
                                 <img src="http://s.hqbcdn.com/assets/v1/images/bank/alipay_1.gif" disabled="disabled" />
                           </span>
             </label>
-            <label for="_cmb_b2c_2">
-                          <span class="bankimg zhaohang-pay">
-                              <i class="radio"><input type="radio" class="type_7" value="directPay" name="payBank" id="_cmb_b2c_2"></i>
-                              <img src="http://s.hqbcdn.com/assets/v1/images/bank/CMB_OUT.gif" disabled="disabled">
-                          </span>
-            </label>
-            <!-- S新增加的微信 -->
-            <label for="wx_pay">
-                  <span class="bankimg wx-pay">
-                      <i class="radio"><input type="radio" class="type_11" value="qrWX" name="payBank" id="wx_pay"></i>
-                      <img src="http://s2.hqbcdn.com/assets/v4/images/process/wxpay.jpg" disabled="disabled">
-                  </span>
-            </label>
+           
             <!-- E新增加的微信 -->
         </div>
         <!-- S 支付平台 -->
         <div class="pay-pt pay-box">
             <div class="pay-pt-nav pay-nav">
-                <label><input type="radio" name="pay-label">支付平台<span>支付宝/财付通</span></label>
+                <label><input type="radio" name="pay-label">支付平台<span>支付宝</span></label>
             </div>
             <div class="pay-nav-con">
                 <label for="alipay">
@@ -135,23 +124,14 @@
                               </span>
                 </label>
                 <label for="alipay_qrPayMode">
-                            <span class="bankimg">
-                                <i class="radio"><input type="radio" id="alipay_qrPayMode" name="payBank" value="qrPayMode" class="type_qr" /></i>
-                                <img disabled="disabled"  src="http://s.hqbcdn.com/assets/v1/images/bank/alipay_qr.gif" />
-                            </span>
+                           
                 </label>
                 <label for="tenpay">
-                              <span class="bankimg">
-                                  <i class="radio"><input type="radio" id="tenpay" name="payBank" value="directPay" class="type_qr" /></i>
-                                  <img disabled="disabled"  src="http://s.hqbcdn.com/assets/v1/images/bank/Tenpay_gif.jpg" />
-                              </span>
+                              
                 </label>
                 <!-- S新增加微信 -->
                 <label for="wxpay">
-                      <span class="bankimg">
-                          <i class="radio"><input type="radio" id="wxpay" name="payBank" value="qrWX" class="type_qr" /></i>
-                          <img disabled="disabled"  src="http://s2.hqbcdn.com/assets/v4/images/process/wxpay.jpg" />
-                      </span>
+                      
                 </label>
                 <!-- E新增加微信 -->
             </div>
@@ -159,85 +139,11 @@
         <!-- E 支付平台 -->
                 <!-- S 支付分期 -->
         <div class="pay-fqi pay-box">
-            <div class="pay-fqi-nav pay-nav">
-                <label><input type="radio" name="pay-label" />分期付款<span class="fenqi-per">分期付款最低约488/月</span></label>
-            </div>
-            <div class="pay-nav-con">
-                <label for="_cmb_installment">
-                          <span class="bankimg">
-                              <i class="radio"><input id="_cmb_installment"  type="radio"  value="directPay" name="payBank" class="type_10" /></i>
-                              <i class="fq-icon"></i>
-                              <img src="http://s.hqbcdn.com/assets/v1/images/bank/CMB_OUT.gif" disabled="disabled" />
-                          </span>
-                </label>
-            </div>
-            <div class="pay-fq-box">
-                <div class="pay-fq-nav">
-                    请选择分期数<span>×</span>
-                </div>
-                <div class="pay-fq-content">
-                    <p class="pay-fq-p1">
-                        <span><img src="http://s.hqbcdn.com/assets/v1/images/bank/CMB_OUT.gif" disabled="disabled" /><i class="fq-icons"></span></i>
-                    </p>
-                    <p>分期期数:
-                        <label>
-                                      <span class="radio">
-                                          <input type="radio" name="_term" class="_term" value="3" id="_three" checked="checked" />
-                                      </span>
-                            <span class="qishu">3期</span>
-                        </label>
-                        <label>
-                                      <span class="radio">
-                                          <input type="radio" name="_term" class="_term" value="6" id="six" />
-                                      </span>
-                            <span class="qishu">6期</span>
-                        </label>
-                        <label>
-                                      <span class="radio">
-                                          <input type="radio" name="_term" class="_term" value="12" id="_twelve" />
-                                      </span>
-                            <span class="qishu">12期</span>
-                        </label>
-                                                <label>
-                                      <span class="radio">
-                                          <input type="radio" name="_term" class="_term" value="24" id="_twentyfour" />
-                                      </span>
-                            <span class="qishu">24期</span>
-                        </label>
-                                            </p>
-                    <p class="option-pay-total">付款金额:&nbsp;441.87元=订单待支付总额429元+分期手续费12.87</p>
-                    <p class="option-pay-fq">还款规则:&nbsp;每期应还款<b>147.29</b>元<b>3</b>x期(月)<i>当总金额不能被分期数整除时。具体每期还款金额以银行计算为准</i></p>
-                    <p class="option-box"><span class="fq-submit">确定</span><span class="fq-cance">取消</span></p>
-                </div>
-            </div>
-            <!-- S 分期付款说明 -->
-            <!-- E 分期付款说明 -->
+            
         </div>
         <!-- E 支付分期 -->
                 <!-- S 网上银行 -->
-        <div class="pay-online pay-box">
-            <div class="pay-online-nav pay-nav">
-                <label><input type="radio" name="pay-label">网上银行<span>各大银行均有支持</span></label>
-            </div>
-            <div class="pay-nav-con">
-                <ul class="pay-online-list">
-                    <li><label for="_cmb_b2c"><span class="bankimg"><i class="radio"><input type="radio" class="type_7" value="directPay" name="payBank" id="_cmb_b2c"></i><img src="http://s.hqbcdn.com/assets/v1/images/bank/CMB_OUT.gif" disabled="disabled"></span></label></li>
-                    <li><label for="ICBCB2C"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio"  value="ICBCB2C" id="ICBCB2C" name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/ICBC_OUT.gif" /></span></label></li>
-                    <li><label for="CCB"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="CCB" id="CCB"  name="payBank" / ></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/CCB_OUT.gif" /></span></label></li>
-                    <li><label for="BOCB2C"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="BOCB2C" id="BOCB2C"  name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/BOC_OUT.gif" /></span></label></li>
-                    <li><label for="ABC"><span class="bankimg"> <i class="radio"> <input type="radio" class="_alipay_radio" value="ABC" id="ABC" name="payBank"  /></i><img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/ABC_OUT.gif" /></span></label></li>
-                    <li><label for="COMM"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="COMM" id="COMM" name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/COMM_OUT.gif" /></span></label></li>
-                    <li><label for="SPDB"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="SPDB" id="SPDB" name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/SPDB_OUT.gif" /></span></label></li>
-                    <li><label for="GDB"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="GDB" id="GDB" name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/GDB_OUT.gif" /></span></label></li>
-                    <li><label for="CITIC"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="CITIC" id="CITIC" name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/CITIC_OUT.gif" /></span></label></li>
-                    <li><label for="CIB"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="CIB" id="CIB" name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/CIB_OUT.gif" /></span></label></li>
-                    <li><label for="CMBC"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="CMBC" id="CMBC" name="payBank" / ></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/CMBC_OUT.gif" /></span></label></li>
-                    <li><label for="HZCBB2C"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="HZCBB2C" id="HZCBB2C"  name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/HZCB_OUT.gif" /></span></label></li>
-                    <li><label for="SHBANK"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="SHBANK" id="SHBANK" name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/SHBANK_OUT.gif" /></span></label></li>
-                    <li><label for="SPABANK"><span class="bankimg"><i class="radio"> <input type="radio" class="_alipay_radio" value="SPABANK" id="SPABANK" name="payBank"  /></i> <img disabled="disabled" border="0" src="http://s.hqbcdn.com/assets/v1/images/bank/SPABANK_OUT.gif" /></span></label></li>
-                </ul>
-            </div>
-        </div>
+      
         <!-- E 网上银行 -->
     </div>
 </div>
@@ -257,17 +163,17 @@
             <table>
                                                     <!-- S 有保险  -->
         <input type="hidden" name="cartId" value="1003746606"/>
+        @foreach($res as $row)
         <tr >
             <td class="sec-c1">
                 <div class="sec-items">
-                    <img width="100" height="100" src="http://img10.hqbcdn.com/product/4e/e6/4ee65757233ca1d5144f4a40bacc5ebc.100.jpg" class="sec-items-pic" />
-                    <p class="sec-items-t1"><a href="http://www.okhqb.com/item/1000126145.html" target="_blank">荣耀 9i 移动联通电信4G全面屏手机 双卡双待手机</a></p>
+                    <img width="100" height="100" src="{{$row['pic']}}" class="sec-items-pic" />
+                    <p class="sec-items-t1"><a href="/goods/{{$row['id']}}" target="_blank">{{$row['brank']}} {{$row['name']}} {{$row['descr']}}</a></p>
                     <p class="sec-items-t2">
-                                                                                    <label> 4GB+128GB 魅海蓝 </label>
-                                                    
+                    <label> {{$row['model']}} </label>                              
                     <div class="stateInfo">
                         <div class="goodsStateTip">
-                            <span>现在完成下单,最迟11月9日21点前发货 </span>
+                           
                         </div>
                     </div>
 
@@ -275,42 +181,27 @@
                 </div>
             </td>
             <td class="sec-c2">
-                            </td>
-                        <td class="sec-c3">&yen;1458.00<br/>
-                                  <i class="sec-tj">特价 </i>
-                            </td>
-            <td class="sec-c4">x1</td>
-                        <td class="sec-c5">&yen;1458.00</td>
+            </td>
+            @if($row['d_price'] != null)
+            <td class="sec-c3">&yen;{{ceil($row['price']*$row['d_price']*0.1)}}<br/>
+                <i class="sec-tj">特价 </i>
+           </td>
+           @else
+           <td class="sec-c3">&yen;{{$row['price']}}<br/>
+                <i class="sec-tj">特价 </i>
+           </td>
+           @endif
+            <td class="sec-c4">x{{$row['num']}}</td>
+            @if($row['d_price'] != null)
+            <td class="sec-c5">&yen;{{ceil($row['num']*$row['price']*$row['d_price']*0.1)}}</td>
+            @else
+            <td class="sec-c5">&yen;{{$row['price']*$row['num']}}</td>
+            @endif
         </tr>
-
-        
+        @endforeach
 <!-- E 有保险  -->
             <!-- S 有保险  -->
-        <input type="hidden" name="cartId" value="1003746601"/>
-        <tr >
-            <td class="sec-c1">
-                <div class="sec-items">
-                    <img width="100" height="100" src="http://img13.hqbcdn.com/product/01/4d/014d5c85b2f3b004e459376d6a2726a6.100.jpg" class="sec-items-pic" />
-                    <p class="sec-items-t1"><a href="http://www.okhqb.com/item/1000126883.html" target="_blank">Huawei/华为 Mate 20 X 麒麟980芯片全面屏超微距影像超大广角徕卡三摄全网通版双4G手机</a></p>
-                    <p class="sec-items-t2">
-                                                                                    <label> 8GB+256GB 宝石蓝 </label>
-                                                    
-                    <div class="stateInfo">
-                        <div class="goodsStateTip">
-                            <span>现在完成下单,最迟11月9日21点前发货 </span>
-                        </div>
-                    </div>
-
-                    </p>
-                </div>
-            </td>
-            <td class="sec-c2">
-                            </td>
-                        <td class="sec-c3">&yen;6599.00<br/>
-                            </td>
-            <td class="sec-c4">x1</td>
-                        <td class="sec-c5">&yen;6599.00</td>
-        </tr>
+        
 
         
 <!-- E 有保险  -->
@@ -327,18 +218,18 @@
                 <span class="show-yhq" data-type="1"><i class="show-icon">-</i>
                   使用优惠券/小强卡</span>
                 <div class="order-total-right">
-                    商品总金额:<span>&yen;<i class="order-totals">8057.00</i></span>
+                    商品总金额:<span>&yen;<i class="order-totals">{{$row['tot']}}</i></span>
                 </div>
             </div>
             <div class="order-total-con"  style="display: block;">
-                                                                    <input type="hidden" name="couponId" class="couponId" value="" />
+                    <input type="hidden" name="couponId" class="couponId" value="" />
                     <div class="coup-wrapper">
                         <div class="coup-select">
                             <div class="couponIds"> 请选择或输入您的优惠券 </div>
                             <span class="coup-select-btn">▾</span>
                             <div class="coup-list">
                                 <ul class="coup-list-ul">
-                                                                        <li data-value="" amount="" limit="">输入优惠券</li>
+                                    <li data-value="" amount="" limit="">输入优惠券</li>
                                 </ul>
                             </div>
                         </div>
@@ -348,10 +239,10 @@
                             <i class="re_tips"></i>
                         </div>
                     </div>
-                                 <p class="order-total-p2">小强卡余额<i class="xqk-ye">0</i>元</p>
+                <p class="order-total-p2">小强卡余额<i class="xqk-ye">0</i>元</p>
                 <p class="order-total-p2">
-                                        使用小强卡支付<i class="use-card">0</i> 元</p>
-                            </div>
+                        使用小强卡支付<i class="use-card">0</i> 元</p>
+            </div>
         </div>
         <!-- E 总金额  -->
         <!-- S 收货信息 -->
@@ -360,9 +251,9 @@
                 <h4>收货信息</h4>
                 <input  type="hidden" name="addressId" id="addressId" regionId="" value="" />
                 <div class="order-info-addres">
-                                    <p>您未填写收货地址</p>
+                    <p>您未填写收货地址</p>
                     <p></p>
-                                    </div>
+                </div>
                 <p class="order-messge">订单留言</p>
                 <p><textarea name="message" class="message" maxlength="100"></textarea></p>
                 <div class="order-info-bottom">
@@ -377,20 +268,20 @@
 
                                             <p class="pay-yh-space">&nbsp;</p>
                         <p class="pay-xqk-space">&nbsp;</p>
-                        <p class="order-sun-p">商品总价：<span>&yen;<i class="pay-fina">8057.00</i></span></p>
+                        <p class="order-sun-p">商品总价：<span>&yen;<i class="pay-fina">@if($row['tot'] != null){{$row['tot']}}@else{{$row['tot1']}}@endif</i></span></p>
                     
                     <p class="pay-yf-p">运费：<span>&yen;<i class="pay-yf">
                                                     0.00
                         
                     </i></span></p>
-                                        <p>总金额：<span>&yen;<i class="pay-total">8057.00</i></span></p>
+                                        <p>总金额：<span>&yen;<i class="pay-total">@if($row['tot'] != null){{$row['tot']}}@else{{$row['tot1']}}@endif</i></span></p>
                 </div>
 
                 <input type="hidden" name="source" value="1">
                                 <input type="hidden" autocomplete="off" value="MTdjYzVkYWUwYTFmMjdiMDJjNDEyNzVlMTczNzY3MDY=" id="_hqb_token" name="_hqb_token" />
                 <div class="order-btns">
-                    <p class="order-btns-fenqi"><i>您还需支付：</i><span><b>&yen;8057.00</b></span></p>
-                    <input type="submit" value="提交订单" id="order-submit" name="submit" />
+                    <p class="order-btns-fenqi"><i>您还需支付：</i><span><b>&yen;@if($row['tot'] != null){{$row['tot']}}@else{{$row['tot1']}}@endif</b></span></p>
+                    <input type="submit" value="提交订单" id="" name="submit" />
                 </div>
             </div>
         </div>
@@ -404,6 +295,7 @@
     <div class="address-mask"></div>
     <div class="address-wrapper">
         <div class="address-new-nav">使用新地址<span class="address-new-close">╳</span></div>
+        <form action="/add" method="post">
         <div class="address-lists">
             <dl>
                 <dt><i>*</i>收货人：</dt>
@@ -416,31 +308,7 @@
                 <dt><i>*</i>手机号码：</dt>
                 <dd><input class="mobile address-input" id="mobile" name="mobile" type="text" maxlength="11" data-type="mobile" />&nbsp;&nbsp;<i class="add-new-errs">请填写正确的手机号码</i></dd>
             </dl>
-            <dl>
-                <dt><i>*</i>收货地址：</dt>
-                <dd>
-                    <div class="address-new-tit">
-                        <div class="add-provices add-box">
-                            <div class="provices-text add-text" data-id="">省/直辖市</div>
-                            <div class="provices-btn add-btn">▾</div>
-                        </div>
-                        <div class="add-city add-box">
-                            <div class="city-text add-text" data-id="">市</div>
-                            <div class="city-btn add-btn">▾</div>
-                        </div>
-                        <div class="add-town add-box">
-                            <div class="town-text add-text">区/县</div>
-                            <div class="town-btn add-btn">▾</div>
-                        </div>
-                        <div class="address-new-lists">
-                            <div class="prov-box address-box"></div>
-                            <div class="city-box address-box"></div>
-                            <div class="town-box address-box"></div>
-                        </div>
-                    </div>
-                    <i class="add-new-errs">请填写收货地址！</i>
-                </dd>
-            </dl>
+          
             <dl>
                 <dt><i>*</i>详细地址：</dt>
                 <dd>
@@ -450,12 +318,13 @@
             </dl>
             <dl>
                 <dd>
-                    <span class="add-new-sure" id="add-new-sure">确定</span>
+                    <input type="submit" class="btn btn-success add-new-cel" value="确定" />
                     <span class="add-new-cel">取消</span>
                     <i class="server-tips"></i>
                 </dd>
             </dl>
         </div>
+        </form>
     </div>
 </div>
 <!-- E 地址选择 -->
@@ -550,5 +419,6 @@
 
 <noscript>
     <div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1000098639/?value=0&amp;label=LJ36CNGSggQQz5bx3AM&amp;guid=ON&amp;script=0"/></div>
-</noscript></body>
+</noscript>
+</body>
 </html>

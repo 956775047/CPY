@@ -36,9 +36,15 @@
                             </div>
                           </div>
                           <div class="mws-form-row">
-                            <label class="mws-form-label">精选商品已购数量</label>
+                            <label class="mws-form-label">精选商品库存数量</label>
                             <div class="mws-form-item">
                           <input type="num" class="large" name="num" /> 
+                            </div>
+                          </div>
+                          <div class="mws-form-row">
+                            <label class="mws-form-label">品牌</label>
+                            <div class="mws-form-item">
+                          <input type="brank" class="large" name="brank" /> 
                             </div>
                           </div>
                           <div class="mws-form-row">
@@ -47,6 +53,12 @@
                           <input type="price" class="large" name="d_price" /> 
                             </div>
                           </div>
+                          <div class="mws-form-row">
+                            <label class="mws-form-label">商品描述</label>
+                            <div class="mws-form-item">
+                          <input type="descr" class="large" name="descr" /> 
+                            </div>
+                          </di v>
         				<div class="mws-form-row">
                             <label class="mws-form-label">市场价格</label>
                             <div class="mws-form-item">

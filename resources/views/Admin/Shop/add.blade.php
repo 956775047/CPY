@@ -2,50 +2,65 @@
 @section("admin")
   <div class="mws-panel grid_8">
                   <div class="mws-panel-header">
-                      <span>用户添加</span>
+                      <span>商品添加</span>
                     </div>
                     <div class="mws-panel-body no-padding">
-                      <form class="mws-form" action="/adminuser" method="post">
-                     @if (count($errors) > 0)
-                    <div class="mws-form-message error">
-                     <ul>
-                         @foreach ($errors->all() as $error)
-                      <li>{{ $error }}</li>
-                         @endforeach
-                     </ul>
-                    </div>
-                    @endif
+                      <form class="mws-form" action="/adminshop" method="post" enctype="multipart/form-data">
+
+                       @if (count($errors) > 0)
+                          <div class="mws-form-message error">
+                            <ul>
+                           @foreach ($errors->all() as $error)
+                           <li>{{ $error }}</li>
+                           @endforeach
+                           </ul>
+                          </div>
+                      @endif
+
                         <div class="mws-form-inline">
                           <div class="mws-form-row">
-                            <label class="mws-form-label">用户名</label>
+                            <label class="mws-form-label">商品名称</label>
                             <div class="mws-form-item">
-                              <input type="text" class="large" name="username" {{old('username')}}>
+                              <input type="text" class="large" name="name"/ > 
                             </div>
                           </div>
                           <div class="mws-form-row">
-                            <label class="mws-form-label">密码</label>
+                            <label class="mws-form-label">商品类别</label>
                             <div class="mws-form-item">
-                              <input type="password" class="large" name="password">
+                              <select class="large" name="cate_id">
+                                <option value="0">--请选择--</option>
+                            @foreach($cate as $v)
+                                <option value="{{$v->id}}">{{$v->name}}</option>
+
+                             @endforeach  
+                              </select>
                             </div>
                           </div>
                           <div class="mws-form-row">
-                            <label class="mws-form-label">确认密码</label>
+                            <label class="mws-form-label">商品图片</label>
                             <div class="mws-form-item">
-                              <input type="password" class="large" name="repassword">
+                              <input type="file" class="large" name="pic">
+                            </div>
+                          </div>
+                          <div class="mws-form-row"> 
+                          <label class="mws-form-label">描述</label> 
+                          <div class="mws-form-item"> 
+                          <input type="text" class="large" name="descr" /> 
+                           </div> 
+                          </div>
+                          <div class="mws-form-row">
+                            <label class="mws-form-label">商品数量</label>
+                            <div class="mws-form-item">
+                          <input type="num" class="large" name="num" /> 
                             </div>
                           </div>
                           <div class="mws-form-row">
-                            <label class="mws-form-label">邮箱</label>
+                            <label class="mws-form-label">商品价格</label>
                             <div class="mws-form-item">
-                              <input type="text" class="large" name="email" {{old('email')}}>
+                          <input type="price" class="large" name="price" /> 
                             </div>
                           </div>
-                          <div class="mws-form-row">
-                            <label class="mws-form-label">电话</label>
-                            <div class="mws-form-item">
-                              <input type="text" class="large" name="phone" {{old('phone')}}>
-                            </div>
-                          </div>
+        
                         </div>
                         <div class="mws-button-row">
                         {{csrf_field()}}
@@ -56,4 +71,4 @@
                     </div>      
                 </div>
 @endsection
-@section("title","后台用户添加")
+@section("title","后台商品添加")

@@ -30,7 +30,8 @@ class AdminChoiceinsert extends FormRequest
             "price"=>"required|regex:/\d/",
             "num"=>"required|regex:/\d/",
             "pic"=>"required",
-            "d_price"=>"required|regex:/^\d{1}(\.\d{1})$/"
+            "d_price"=>"required|regex:/^\d{1}(\.\d{1})$/",
+            "brank"=>"required"
         ];
     }
 
@@ -46,7 +47,8 @@ class AdminChoiceinsert extends FormRequest
             'num.regex'=>'请输入数字',
             'pic.required'=>'图片不能为空',
             'd_price.required'=>'折扣价不能为空',
-            'd_price.regex'=>'请输入正确的折扣价 比如 8.8'
+            'd_price.regex'=>'请输入正确的折扣价 比如 8.8',
+            'brank.required'=>'品牌不能为空'
         ];
     }
 }

@@ -79,8 +79,9 @@ class UserController extends Controller
         //加载模板
         //根据传递过来的id查找对应的值
         // echo $id;exit;
-        $data=Users::find($id)->info;
-        // dd($data);
+        // $data=Users::find($id)->info;
+        $data=DB::table("user")->join("user_info",'user.id','=','user_info.u_id')->get();
+         // dd($data);
         return view("Admin.User.user",['data'=>$data]);
     }
 
@@ -126,5 +127,12 @@ class UserController extends Controller
        }else{
            echo 0;
        }
+    }
+
+    public function address($id){
+        // echo $id;
+        $info=DB::table('address')->join('user','address.u_id','=','user.id')->select('address.name as aname','address.phone as aphone','address.address as address','address.id as id','address.u_id as u_id')->where('address.u_id','=',$id)->get();
+        // dd($info);
+        return view("Admin.user.address",['info'=>$info]);
     }
 }

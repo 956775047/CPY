@@ -30,16 +30,18 @@
        </tr> 
       </thead> 
       <tbody role="alert" aria-live="polite" aria-relevant="all">
-     @if(!empty($data))
+        
+        @if(!empty($data))
+        @foreach($data as $row)
        <tr class="odd"> 
-        <td class="  sorting_1">{{$data->id}}</td> 
-        <td class=" ">{{$data->u_id}}</td> 
-        <td class=" ">{{$data->name}}</td> 
-        <td class=" ">{{$data->username}}</td> data
-        <td class=" ">{{$data->sex}}</td>  
-        <td class=" ">{{$data->phone}}</td>  
-        <td class=" ">{{$data->date}}</td>  
-        <td class=" ">{{$data->address}}</td>  
+        <td class="  sorting_1">{{$row->id}}</td> 
+        <td class=" ">{{$row->u_id}}</td> 
+        <td class=" ">{{$row->name}}</td> 
+        <td class=" ">{{$row->username}}</td> 
+        <td class=" ">{{$row->sex}}</td>  
+        <td class=" ">{{$row->phone}}</td>  
+        <td class=" ">{{$row->date}}</td>  
+        <td class=" ">{{$row->address}}</td>  
         <td class=" " style="width:100px"><form action="" method="post">
                       {{csrf_field()}}
                       {{method_field("DELETE")}}
@@ -47,6 +49,7 @@
                       </form>
                     </td> 
        </tr>
+       @endforeach
      @else
         <tr class="odd">
             <td calss=" " colspan="9">暂无数据</td>

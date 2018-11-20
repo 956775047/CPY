@@ -2,6 +2,7 @@
 @section("admin")
 <html>
  <head></head>
+ <script type="text/javascript" src="/static/admins/b/js/libs/jquery-1.8.3.min.js"></script>
  <body>
   <div class="mws-panel grid_8"> 
    <div class="mws-panel-header"> 
@@ -12,6 +13,7 @@
       <form action="/admincate" method="get">
      <div class="dataTables_filter" id="DataTables_Table_1_filter">
       <label>搜索: <input type="text" name="keywords" aria-controls="DataTables_Table_1" / value="{{$request['keywords'] or ''}}"></label><input type="submit" value="搜索">
+      
      </div>
      </form>
      <table class="mws-datatable-fn mws-table dataTable" id="DataTables_Table_1" aria-describedby="DataTables_Table_1_info"> 
@@ -25,32 +27,54 @@
        </tr> 
       </thead> 
       <tbody role="alert" aria-live="polite" aria-relevant="all">
-     
+        @foreach($cate as $row)
        <tr class="odd"> 
-        <td class="  sorting_1">1</td> 
-        <td class=" ">2</td> 
-        <td class=" ">3</td> 
-        <td class=" ">4</td>  
-        <td class=" " style="width:280px"><form action="/admincate" method="post">
-                      <a href="" class="btn btn-warning">添加子分类</a> 
-                      <a href="" class="btn btn-link">查看子分类</a> 
-                      <a class="btn btn-danger">删除</a>
+        <td class="  sorting_1">{{$row->id}}</td> 
+        <td class=" ">{{$row->name}}</td> 
+        <td class=" ">{{$row->pid}}</td> 
+        <td class=" ">{{$row->path}}</td>  
+        <td class=" "><form action="/admincate/{{$row->id}}" method="post">
+                      <a href="javascript:void(0)" class="btn btn-danger del" >删除</a>
+                      <!-- a href="/admincate/{{$row->id}}" class="btn btn-success">查看子分类</a> -->
                       {{csrf_field()}}
                       {{method_field("DELETE")}}
-                      <a href="/admincate" class="btn btn-info">修改</a>
-                      </form>
-                      </td>
+                      </form><a href="/admincate/{{$row->id}}/edit" class="btn btn-info">修改</a>
+                      </td> 
        </tr>
-      
+       @endforeach
       </tbody>
      </table>
      <div class="dataTables_paginate paging_full_numbers" id="pages">
-     
+      {!!$cate->appends($request)->render()!!}
      </div>)
     </div> 
    </div> 
   </div>
  </body>
+ <script type="text/javascript">
+     $(".del").click(function(){
+       var trueOrFalse = confirm("确定删除吗!");
+    if(!trueOrFalse){
+      return;
+    }else{
+    //获取要删除的id
+    id=$(this).parents("tr").find("td:first").html();
+    //获取删除的tr
+    s=$(this).parents("tr");
+    $.get('/fldel',{id:id},function(data){
+      // alert(data);
+        if(data==1){
+          confirm("确定删除吗");
+          //删除tr
+          s.remove();
+        }else{
+          alert("请先干掉你的孩子");
+        }
+    });
+}
+
+  });
+ </script>
 </html>
 @endsection
 @section("title","后台分类列表")
