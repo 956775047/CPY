@@ -316,6 +316,18 @@
                             <li><a href="/adminsecondhand1">二精列表</a></li>
                         </ul>
                     </li>
+                    <li>
+                        <a href="#"><i class="icon-user"></i>评价管理</a>
+                        <ul class="closed"> 
+                            <li><a href="/assess">评价列表</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-user"></i>订单管理</a>
+                        <ul class="closed"> 
+                            <li><a href="/adminorder">订单详情</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>         
         </div>

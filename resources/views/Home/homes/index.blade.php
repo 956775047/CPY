@@ -6,6 +6,7 @@
             margin-left: 85px;
         }
 </style>
+<link rel="stylesheet" type="text/css" href="/static/homes/bootstrap/css/bootstrap.min.css" media="screen">
 <link rel="stylesheet" type="text/css" href="/static/homes/static/css/9144ce188dc34d5496b36f952d3e2118.css"/>
     <link rel="stylesheet" href="/static/homes/static/css/okindex_2.css"/>
     <script type="text/javascript" src="/static/homes/static/js/6c592beded1643108f78c4a33a032e33.js"></script>
@@ -24,6 +25,7 @@
       <!-- 今日限购 -->
 <div class="w-1200" id="sec1">
     <div class="mod-t"><h1 class="today"></h1></div>
+    <div id="uid">
     <ul class="cfix td-list">
          @foreach($data as $row)
                     <li class="bd cfix">
@@ -61,6 +63,8 @@
             </li>
             @endforeach
             </ul>
+            </div>
+          
 </div>
 <!-- 海淘优选 -->
 <div class="w-1200" id="sec4">
@@ -122,7 +126,14 @@
 </ul>
 <!-- 精品小商品 -->
 <div class="mod mod-3">
-    
+    <div class="gg">
+                <h2>公告</h2>
+               @foreach($dat as $row)
+                <a href="/annource"><b>{{$row->title}}</b></a><br>
+                @endforeach
+</div>
+</div>
+</div>
 </div>
 </div>
 <!-- 数码发现 -->
@@ -131,13 +142,7 @@
         <h2 class="fl">2F&nbsp;数码发现</h2>
         <p>
             <span>为您推荐:</span>
-                    <!-- 遍历 -->
-                            <a href="http://www.okhqb.com/list/74.html" target="_blank">手机贴膜</a>
-                            <!-- |<a href="http://www.okhqb.com/list/116.html" target="_blank">保护壳/套</a>
-                            |<a href="http://www.okhqb.com/search.html?q=%E8%80%B3%E6%9C%BA" target="_blank">热销耳机</a>
-                            |<a href="http://www.okhqb.com/list/245.html" target="_blank">智能家居</a>
-                            |<a href="http://www.okhqb.com/list/quwan.html" target="_blank">智能玩具</a> -->
-                    <!-- 结束 -->
+                    
                     </p>
     </div>
 
@@ -180,13 +185,7 @@
         </ul>
     </div>
 	
-<div class="gg">
-                <h2>公告</h2>
-               @foreach($dat as $row)
-                <a href="/annource"><b>{{$row->title}}</b></a><br>
-                @endforeach
-</div>
-</div>
-</div>
+
+
 @endsection
 @section("title","前台首页")

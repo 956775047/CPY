@@ -15,16 +15,18 @@ class PaycartController extends Controller
     public function index(Request $request)
     {   
         $data=session('cart');
+        // dd($data);
         $m=0;
         $res=array();
-        
+        //得到数量
         foreach($data as $da){
             $s=$da['num'];
             $m+=$s;
-        }
 
-        $tot="";
-        $nu="";
+        }
+        //总计
+        $total="";
+        $num="";
         foreach($data as $da){
             
             $info=DB::table('goods')->join('cgoods_info','goods.id','=','cgoods_info.c_id')->where('goods.id','=',$da['id'])->first();
@@ -34,34 +36,29 @@ class PaycartController extends Controller
             $row['num']=$info->num;
             $row['price']=$info->price;
             $row['d_price']=$info->d_price;
+            if($row['d_price'] == null){
+                $row['d_price']=1;
+            }
             $row['brank']=$info->brank;
-            $row['new_price']=$info->new_price;
             $row['model']=$info->model;
+            //商品的数量
             $row['num1']=$da['num'];
             $row['id']=$da['id'];
-            $row['tot1']=$info->new_price*$row['num1'];
+            $row['tot']=$info->price*$row['num1'];
+            // dd($row['tot']);
+            $total+=$row['tot'];
+            $num+=$row['num1'];
+            //分开算         无折扣价格              有折扣价格
+            // $total=$info->price*$row['num1']+ceil($info->$price*$info->d_price*$row['num1']);
+            // dd($total);
             $res[]=$row;        
         }
-        // dd($res);
-        foreach($res as $val){
-                $price=$val['price'];
-                $d_price=$val['d_price'];
-                $new_price=$val['new_price'];
-                $num=$val['num1'];
-                // dd($num);
-                $tot+=$price*$num;
-                // dd($tot);
-                $nu+=$val['num1'];
-            }
-            if($tot != null && $tot !=0){
-                    $tot+=ceil($price*$d_price*$num*0.1);
-                }else{
-                    $tot+=$new_price*$num;
-                }
-                // dd($tot);
-        return view("Home.Cart.cart",['res'=>$res,'tot'=>$tot,'nu'=>$nu]);
-    }
 
+        // dd($total);
+      
+        return view("Home.Cart.cart",['res'=>$res,'total'=>$total,'num'=>$num]);
+    }
+    //加
     public function updates($id){
         // echo $id;
         $goods=session('cart');
@@ -80,14 +77,14 @@ class PaycartController extends Controller
         session(['cart'=>$goods]);
         return redirect('/paycart');
     }
-
+    //减
     public function updatee($id){
         // echo $id;
         $goods=session('cart');
         foreach($goods as $key=>$value){
             //对比
             if($value['id']==$id){
-                //数量加一
+                //数量减一
                 $s=$value['num']-1;
                 $goods[$key]['num']=$s;
                  $info=DB::table('goods')->join('cgoods_info','goods.id','=','cgoods_info.c_id')->where('goods.id','=',$id)->first();

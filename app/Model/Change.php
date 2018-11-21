@@ -14,7 +14,7 @@ class Change extends Model{
    	protected $ﬁllable  = ['pic','status'];
 
    	public function getStatusAttribute($value){
- 	$status=[1=>"开启",2=>"禁用"];
+ 	$status=[1=>"开启",0=>"禁用"];
     return $status[$value];
 	} 
 

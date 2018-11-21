@@ -5,7 +5,8 @@
   <meta name="copyright" content="深圳市华强北商城商务有限公司版权所有" /> 
   <meta name="keywords" content="网上购物,网上商城,家电网购,网购,手机,数码,相机,笔记本,电脑,家电,厨卫电器,车载,电玩,MP3/MP4,DV,上网本,华强北" /> 
   <meta name="description" content="华强北商城(okhqb.com)是专业的手机数码网上购物商城,华强北在线商标官方唯一授权使用单位,产品包括手机,数码,相机,笔记本,电脑,家电,车载用品,MP3/MP4,DV,上网本,电玩近万类,并且每天更新深圳华强北各类手机数码产品最新报价,承诺全场正品低价,及时发货,配送到家,华强北在线竭诚为你提供更优质的服务 ！" /> 
-  <meta name="viewport" content="width=device-width,maximum-scale=2.0, user-scalable=yes" /> 
+  <meta name="viewport" content="width=device-width,maximum-scale=2.0, user-scalable=yes" />
+  <link rel="stylesheet" type="text/css" href="/static/homes/bootstrap/css/bootstrap.min.css" media="screen"> 
   <link rel="shortcut icon" href="http://s.hqbcdn.com/favicon/favicon.ico" /> 
   <title>购物车-华强北商城</title> 
   <link rel="stylesheet" href="http://s2.hqbcdn.com/??assets/v4/css/base.css,assets/v4/css/public-new.css,lib/dialog/skins/dialog.css?t=20141015" /> 
@@ -116,10 +117,10 @@
           </div> 
          </div> 
        </td> 
-         @if($da['d_price'] != null)
-        <td> <p class="td-price-p">&yen;<i class="td-price" oldprice="6599.00" name="i">{{ceil($da['price']*$da['d_price']*0.1)}}</i><br /> </p> </td> 
+       @if($da['d_price'] == 1)
+        <td> <p class="td-price-p">&yen;<i class="td-price" oldprice="6599.00" name="i">{{$da['price']*$da['d_price']}}</i><br /> </p> </td> 
         @else
-        <td> <p class="td-price-p">&yen;<i class="td-price" oldprice="6599.00">{{$da['price']}}</i><br /> </p> </td>
+        <td> <p class="td-price-p">&yen;<i class="td-price" oldprice="6599.00" name="i">{{ceil($da['price']*$da['d_price']*0.1)}}</i><br /> </p> </td> 
         @endif
         <td> 
          <div class="plus_minus">
@@ -135,10 +136,10 @@
        </td> 
 
         <td> <p class="td-total-p">&yen;
-          @if($da['d_price'] != null)
-          <b class="td-total">{{ceil($da['price']*$da['d_price']*$da['num1']*0.1)}}</b>
+      @if($da['d_price'] == 1)
+          <b class="td-total">{{$da['price']*$da['d_price']*$da['num1']}}</b>
           @else
-          <b class="td-total">{{$da['price']*$da['num1']}}</b>
+          <b class="td-total">{{ceil($da['price']*$da['d_price']*$da['num1']*0.1)}}</b>
           @endif
           </p> 
       </td> 
@@ -179,10 +180,10 @@
      <div class="total-sec-bottom"> 
       <div class="total-tips"> 
        <a href="/" target="_blank">继续购物&gt;&gt;</a> 
-       <p>共<span><b class="total-count totalNum">{{$nu}}</b></span>件商品，邮费<span>&yen; <b class="total-yf"> 0 </b></span>商品应付总额：<span>&yen; <b class="total-sum totalPrice"> {{$tot}}</b></span></p> 
+       <p>共<span><b class="total-count totalNum">{{$num}}</b></span>件商品，邮费<span>&yen; <b class="total-yf"> 0 </b></span>商品应付总额：<span>&yen; <b class="total-sum totalPrice"> {{$total}}</b></span></p> 
       </div> 
      
-       <a href="/address">立即结算</a>
+       <a href="/address" class="btn btn-danger" style="width:100">立即结算</a>
       
      </div> 
     </div> 

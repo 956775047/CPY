@@ -1,22 +1,22 @@
 <?php
 
-namespace App\Http\Controllers\Home;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use DB;
-use Hash;
-class LoginController extends Controller
+class AssessController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //引入登录页面
-        return view("Home.Login.login");
+        $k=$request->input('keywords');
+        $data=DB::table("assess")->where('name','like',"%".$k."%")->paginate(10);
+       return view("Admin.Assess.index",['data'=>$data]);
     }
 
     /**
@@ -24,30 +24,9 @@ class LoginController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(Request $request)
+    public function create()
     {
-        //登录操作
-        $phone=$request->input("phone");
-        // $name=$request->input("phone");
-        // dd($request->all());
-        $password=$request->input("password");
-        $info=DB::table("user")->where('phone','=',$phone)->orwhere("name",'=',$phone)->first();
-
-        if($info){
-                if(Hash::check($password,$info->password)){
-                        session(['sphone'=>$phone]);
-                        session(['sname'=>$phone]);
-                        session(['id'=>$info->id]);
-                        return redirect("/")->with('success','登录成功');
-                }else{
-                        return back()->with('error','密码有误');
-
-                }
-        }else{
-           return back()->with('error','用户名错误');
-           echo "用户名错误";
-
-        }
+        //
     }
 
     /**
@@ -58,7 +37,7 @@ class LoginController extends Controller
      */
     public function store(Request $request)
     {
-        echo 22;
+        //
     }
 
     /**
@@ -104,5 +83,15 @@ class LoginController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function del(Request $request){
+        $id=$request->input('id');  
+        //echo $id;
+        if(DB::table('assess')->where("id","=",$id)->delete()){
+            return response()->json(['msg'=>1]);
+        }else{
+            return response()->json(['msg'=>0]);
+        }
+
     }
 }

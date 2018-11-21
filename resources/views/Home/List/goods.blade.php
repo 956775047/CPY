@@ -166,7 +166,7 @@
         关联商品:
        </dt> 
        <dd class="margin-min"> 
-        <a class="v-item" href="http://www.okhqb.com/item/1000125408.html">Mate 10</a> 
+        <a class="v-item" href="javascript:void(0)">Mate 10</a> 
        </dd> 
       </dl> 
       <!-- 依据后台类目ID 来判断是否需要组合货源信息--> 
@@ -175,7 +175,7 @@
         版&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本:
        </dt> 
        <dd class="margin-min"> 
-        <a title="Huawei/华为 Mate 20 X 麒麟980芯片全面屏超微距影像超大广角徕卡三摄全网通版双4G手机 8GB+256GB 宝石蓝" class="v-item on" href="http://www.okhqb.com/item/1000126883.html">1111 </a> 
+        <a title="Huawei/华为 Mate 20 X 麒麟980芯片全面屏超微距影像超大广角徕卡三摄全网通版双4G手机 8GB+256GB 宝石蓝" class="v-item on" href="javascript:void(0)">1111 </a> 
        </dd> 
       </dl> 
       <dl class="cfix"> 

@@ -30,21 +30,21 @@
 <div id="toolbar-bg">
     <div class="toolbar">
         <div class="toolbar-left">
-            @if(empty(session('name')))
+            @if(empty(session('sname')))
                 <p class="unlogin dc-unlogin"><a href="/login" rel="nofollow" class="nav-bold">您好!&nbsp;请登录</a>&nbsp;<i>|</i>&nbsp;<a href="/register" rel="nofollow" class="nav-bold" style="color: #686868">注册</a></p>
             @else
                <!--  <p class="logined dc-logined">
                 您好&nbsp;,{{session('name')}}<a href="http://my.okhqb.com/my/home.html" rel="nofollow" class="nav-bold dc-nav-user" target="_blank">&nbsp;</a>&nbsp;,欢迎来到华强北商城！|&nbsp;
                 <a href="http://www.okhqb.com/member/logout.html" rel="nofollow">退出</a>
                 </p> -->
-                <p class="unlogin dc-unlogin"><a href="" rel="nofollow" class="nav-bold">您好!&nbsp;{{session('name')}}</a>&nbsp;<i>|</i>&nbsp;<a href="/outlogin" rel="nofollow" class="nav-bold" style="color: #686868">退出</a></p>
+                <p class="unlogin dc-unlogin"><a href="" rel="nofollow" class="nav-bold">您好!&nbsp;{{session('sname')}}</a>&nbsp;<i>|</i>&nbsp;<a href="/outlogin" rel="nofollow" class="nav-bold" style="color: #686868">退出</a></p>
             @endif
         </div>
         <div class="toolbar-right">
             <ul class="toolbar-right-list">
                 <li ><a href="http://my.okhqb.com/my/home.html?utml=member" target="_blank">我的账户</a><i class="list-icon-new"></i>
                     <div class="toolbar-my toolbar-right-box" >
-                        <a href="http://my.okhqb.com/my/order.html?utml=oder" target="_blank">我的订单</a>
+                        <a href="/order" target="_blank">我的订单</a>
                         <a href="http://my.okhqb.com/my/point.html?utml=coin" target="_blank">我的小强币</a>
                         <a href="http://my.okhqb.com/my/subscription.html?utml=focus" target="_blank">我的关注</a>
                         <a href="http://my.okhqb.com/my/coupons.html?utml=coupons" target="_blank">我的优惠券</a>

@@ -23,13 +23,13 @@ class Changeinsert extends FormRequest
      */
     public function rules(){ 
             return [            
-             //会员名做规则设置  
+             //图片做规则设置  
                     'pic'=>'required'
                      ];   
     }
     public function messages(){
             return [            
-             //会员名做规则设置  
+             //图片做规则设置  
                    'pic.required'=>'请添加图片'  
                      ]; 
 

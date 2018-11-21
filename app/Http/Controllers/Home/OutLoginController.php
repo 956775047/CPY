@@ -14,7 +14,7 @@ class OutLoginController extends Controller
      */
     public function index(Request $request)
     {
-        $request->session()->pull('name');
+        $request->session()->pull('sname');
         $request->session()->pull('password');
         return redirect("/");
     }

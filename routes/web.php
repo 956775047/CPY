@@ -64,6 +64,7 @@ Route::group(['middleware'=>'adminlogin'],function(){
 	//精选详情
 	Route::post("/choicenessi/{id}","Admin\ChoicenessController@insert");
 
+	//后台轮播图管理
 	Route::resource("/change","Admin\ChangeController");
 	//后台轮播图删除
 	Route::get("/changedel","Admin\ChangeController@del");
@@ -84,6 +85,15 @@ Route::group(['middleware'=>'adminlogin'],function(){
 	//二手优品
 	Route::resource("/adminsecondhand","Admin\SecondhandController");
 	Route::resource("/adminsecondhand1","Admin\Secondhand1Controller");
+	//后台评价
+	Route::resource("/assess","Admin\AssessController");
+	//订单详情后台
+	Route::resource("/adminorder","Admin\OrderController");
+	//Ajax订单状态修改
+	Route::get('/edits','Admin\OrderController@edits');
+	//后台订单详细信息
+	Route::get("/details/{goods_id}","Admin\OrderController@details");
+
 });
 
 
@@ -126,6 +136,7 @@ Route::get("/cartdel/{id}","Home\PaycartController@cartdel");
 
 //结算页
 Route::resource('/address',"Home\AddressController");
+Route::get('/addresss',"Home\AddressController@addresss");
 //优惠
 Route::get("/favorable","Home\HomeController@favorable");
 //二手
@@ -133,6 +144,20 @@ Route::get("/secondhand","Home\HomeController@secondhand");
 //支付宝
 Route::get('/pay','Home\PayController@pay');
 Route::get('/returnurl','Home\PayController@returnurl');
+
+
+//我的订单前台
+Route::resource("/order","Home\OrderController");
+//Ajax订单状态修改前台
+Route::get("/homeedit","Home\OrderController@homeedit");
+//前台收货
+Route::get("/shouhuo","Home\OrderController@shouhuo");
+//前台待评价列表
+Route::get("/dpj","Home\OrderController@dpj");
+//前台评价
+Route::get("/pingjia/{sid}","Home\OrderController@pingjia");
+//提交评价
+Route::get("/tjpj/{id}","Home\OrderController@tjpj");
 
 
 

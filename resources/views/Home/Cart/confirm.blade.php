@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="/static/homes/bootstrap/css/bootstrap.min.css" media="screen">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="copyright" content="深圳市华强北商城商务有限公司版权所有" />
     <meta name="keywords" content="网上购物,网上商城,家电网购,网购,手机,数码,相机,笔记本,电脑,家电,厨卫电器,车载,电玩,MP3/MP4,DV,上网本,华强北" />
@@ -75,22 +76,39 @@
 <!--E header -->
 <!--S main -->
 <input type="hidden" id="order-times" value="1577" />
+
 <form action="/pay" method="get" target="_blank" id="order-form" autocomplete="off">
+
 <div class="order-box order-main">
 <div class="order-time"><i class="order-time-icon"></i><span
         class="order-time-text">商品库存有限，请在<i>59分59秒</i>内提交订单</span></div>
 <!-- S 地址选择 -->
 <div class="order-address">
-    <h3>1.地址选择
-                    <a href="javascript:void(0);" class="add-address"><i></i>添加地址</a>
+    <h3>1.地址选择  
+                    <a href="/address/{id}" class="btn btn-success" style="width:100"><i></i>添加地址</a>
+                    
             </h3>
+   
     <div class="address-content">
+         
         <ul class="address-list">
-            <li>111111</li>
-                    </ul>
+            @foreach($addr as $add)
+            
+            <li class="shouhuo">
+              <p>{{$add->id}}</p>
+              <p>{{$add->name}}</p>
+              <p>{{$add->phone}}</p>
+              <p>{{$add->address}}</p>
+            </li>
+            @endforeach
+        </ul>
+         
+            
+            <input type="hidden" name="id" value="" id="asdfg">
         <div class="address-all-show">
                     </div>
     </div>
+   
 </div>
 <!-- E 地址选择 -->
   <!-- S 支付方式 -->
@@ -149,7 +167,7 @@
 </div>
 <!-- E 支付方式 --><!-- S 商品清单 -->
 <div class="order-lists">
-    <h3>3.商品清单<a href="http://buy.okhqb.com/buy/cart.html">返回购物车修改>></a></h3>
+    <h3>3.商品清单<a href="/">返回购物车修改>></a></h3>
     <div class="order-lists-wrapper">
         <div class="order-lists-sp">
             <table class="lists-nav">
@@ -182,21 +200,21 @@
             </td>
             <td class="sec-c2">
             </td>
-            @if($row['d_price'] != null)
+       @if($row['d_price']==1)
+            <td class="sec-c3">&yen;{{$row['price']}}<br/>
+                <i class="sec-tj">特价 </i>
+           </td>
+      @else
             <td class="sec-c3">&yen;{{ceil($row['price']*$row['d_price']*0.1)}}<br/>
                 <i class="sec-tj">特价 </i>
            </td>
-           @else
-           <td class="sec-c3">&yen;{{$row['price']}}<br/>
-                <i class="sec-tj">特价 </i>
-           </td>
-           @endif
+        @endif
             <td class="sec-c4">x{{$row['num']}}</td>
-            @if($row['d_price'] != null)
-            <td class="sec-c5">&yen;{{ceil($row['num']*$row['price']*$row['d_price']*0.1)}}</td>
-            @else
+        @if($row['d_price'] ==1)
             <td class="sec-c5">&yen;{{$row['price']*$row['num']}}</td>
-            @endif
+          @else
+          <td class="sec-c5">&yen;{{ceil($row['price']*$row['d_price']*$row['num']*0.1)}}</td>
+          @endif
         </tr>
         @endforeach
 <!-- E 有保险  -->
@@ -218,7 +236,8 @@
                 <span class="show-yhq" data-type="1"><i class="show-icon">-</i>
                   使用优惠券/小强卡</span>
                 <div class="order-total-right">
-                    商品总金额:<span>&yen;<i class="order-totals">{{$row['tot']}}</i></span>
+                    商品总金额:<span>&yen;<i class="order-totals">{{$total}}</i></span>
+                    <input type="hidden" name="total" value="{{$total}}">
                 </div>
             </div>
             <div class="order-total-con"  style="display: block;">
@@ -251,8 +270,8 @@
                 <h4>收货信息</h4>
                 <input  type="hidden" name="addressId" id="addressId" regionId="" value="" />
                 <div class="order-info-addres">
-                    <p>您未填写收货地址</p>
-                    <p></p>
+                   <!--  <p>您未填写收货地址</p>
+                    <p></p> -->
                 </div>
                 <p class="order-messge">订单留言</p>
                 <p><textarea name="message" class="message" maxlength="100"></textarea></p>
@@ -268,20 +287,21 @@
 
                                             <p class="pay-yh-space">&nbsp;</p>
                         <p class="pay-xqk-space">&nbsp;</p>
-                        <p class="order-sun-p">商品总价：<span>&yen;<i class="pay-fina">@if($row['tot'] != null){{$row['tot']}}@else{{$row['tot1']}}@endif</i></span></p>
+                        <p class="order-sun-p">商品总价：<span>&yen;<i class="pay-fina">{{$total}}</i></span></p>
                     
                     <p class="pay-yf-p">运费：<span>&yen;<i class="pay-yf">
                                                     0.00
                         
                     </i></span></p>
-                                        <p>总金额：<span>&yen;<i class="pay-total">@if($row['tot'] != null){{$row['tot']}}@else{{$row['tot1']}}@endif</i></span></p>
+                                        <p>总金额：<span>&yen;<i class="pay-total">{{$total}}</i></span></p>
                 </div>
 
                 <input type="hidden" name="source" value="1">
                                 <input type="hidden" autocomplete="off" value="MTdjYzVkYWUwYTFmMjdiMDJjNDEyNzVlMTczNzY3MDY=" id="_hqb_token" name="_hqb_token" />
                 <div class="order-btns">
-                    <p class="order-btns-fenqi"><i>您还需支付：</i><span><b>&yen;@if($row['tot'] != null){{$row['tot']}}@else{{$row['tot1']}}@endif</b></span></p>
-                    <input type="submit" value="提交订单" id="" name="submit" />
+                    <p class="order-btns-fenqi"><i>您还需支付：</i><span><b>&yen;{{$total}}</b></span></p>
+                    <input type="submit" value="提交订单" id="" name="submit" class="btn btn-danger" style="width:100" />
+                    <!-- <a href="/pay" class="btn btn-danger">提交订单</a> -->
                 </div>
             </div>
         </div>
@@ -291,28 +311,32 @@
 <!-- E 商品清单 -->
 
 <!-- S 地址选择 -->
+
 <div class="address-select">
     <div class="address-mask"></div>
     <div class="address-wrapper">
         <div class="address-new-nav">使用新地址<span class="address-new-close">╳</span></div>
-        <form action="/add" method="post">
-        <div class="address-lists">
+        
+        <!-- <div class="address-lists">
+       
+             
             <dl>
+
                 <dt><i>*</i>收货人：</dt>
                 <dd>
-                    <input type="text" name="user-name" class="user-name address-input" maxlength="15" data-type="user" />
+                    <input type="text" name="name" class="user-name address-input"  data-type="user" value="name"/>
                     <i class="add-new-errs">收货人只能使用中文！</i>
                 </dd>
             </dl>
             <dl>
                 <dt><i>*</i>手机号码：</dt>
-                <dd><input class="mobile address-input" id="mobile" name="mobile" type="text" maxlength="11" data-type="mobile" />&nbsp;&nbsp;<i class="add-new-errs">请填写正确的手机号码</i></dd>
+                <dd><input class="mobile address-input" id="mobile" name="phone" value="phone" type="text"  data-type="mobile" />&nbsp;&nbsp;<i class="add-new-errs">请填写正确的手机号码</i></dd>
             </dl>
           
             <dl>
                 <dt><i>*</i>详细地址：</dt>
                 <dd>
-                    <input class="address address-input" name="address" id="address" type="text" maxlength="50" data-type="address" />
+                    <input class="address address-input" name="address" id="address" type="text" data-type="address" />
                     <i class="add-new-errs">请填写详细地址</i>
                 </dd>
             </dl>
@@ -323,10 +347,12 @@
                     <i class="server-tips"></i>
                 </dd>
             </dl>
+    
         </div>
-        </form>
+        -->
     </div>
 </div>
+
 <!-- E 地址选择 -->
 </div>
 <!--E main -->
@@ -421,4 +447,18 @@
     <div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1000098639/?value=0&amp;label=LJ36CNGSggQQz5bx3AM&amp;guid=ON&amp;script=0"/></div>
 </noscript>
 </body>
+<script>
+// alert($);
+$('.shouhuo').click(function(){
+    id=$(this).find('p:first').html();
+    // alert(id);
+    $('#asdfg').val(id);
+    // alert($('#asdfg').val());
+    // $.get('/returnurl',{id:id},function(data){
+    //     alert(data);
+    //     $('#id').val(data);
+    // })
+});
+
+</script>
 </html>

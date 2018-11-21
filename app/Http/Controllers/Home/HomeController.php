@@ -24,13 +24,17 @@ class HomeController extends Controller
     }
 
     public function index(Request $request)
-    {   //精选列表
+    {   
+       
+        
+        //精选列表
         $data=DB::table('goods')->join("cate",'goods.cate_id','=','cate.id')->select(
             'goods.id as id','goods.name as name','goods.cate_id as cid','goods.pic as pic','goods.descr as descr','goods.num as num','goods.price as price','goods.news as news','goods.d_price as d_price','goods.brank as brank'
-        )->where('goods.cate_id','=','28')->get();
-
+        )->join('cgoods_info','goods.id','=','cgoods_info.c_id')->where('goods.cate_id','=','28')->get();
+       
+        // dd($da);
         // 轮播图
-        $info=DB::table("change")->where("status",'=',1)->get();
+        $info=DB::table("change")->join("change_info",'change.cate_id','change_info.id')->where("cate_id",'=',1)->where("status",'=',1)->get();
 
         // 公告
         $dat=DB::table('articles')->get();
@@ -39,11 +43,11 @@ class HomeController extends Controller
         //商品信息上
         $good=DB::table("goods")->join("cate","goods.cate_id","=","cate.id")->select(
             'goods.id as id','goods.name as name','goods.cate_id as cate_id','goods.pic as pic','goods.descr as descr','goods.num as num','goods.price as price','cate.id as cid','cate.name as cname'
-            )->where('goods.cate_id','=','24')->get();
+            )->join('cgoods_info','goods.id','=','cgoods_info.c_id')->where('goods.cate_id','=','24')->get();
         //商品信息下
         $goods=DB::table("goods")->join("cate","goods.cate_id","=","cate.id")->select(
             'goods.id as id','goods.name as name','goods.cate_id as cate_id','goods.pic as pic','goods.descr as descr','goods.num as num','goods.price as price','cate.id as cid','cate.name as cname'
-            )->where('goods.cate_id','=','21')->get();
+            )->join('cgoods_info','goods.id','=','cgoods_info.c_id')->where('goods.cate_id','=','21')->get();
       
         //广告
         $ad=DB::table("AD")->get();

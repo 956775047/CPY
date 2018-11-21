@@ -111,24 +111,26 @@
                 <th class="pay-style">支付方式</th>
                 <th class="pay-counts">支付金额</th>
             </tr>
+            @foreach($res as $row)
             <tr>
                 <td>
-                    <p>154184834332010</p>
-                    <p><a href="http://my.okhqb.com/my/order/show.html?tradeSn=154184834332010" target="_blank" class="check-pay-list">查看订单详情</a></p>
+                    <p>{{$row['order_num']}}</p>
+                    <p><a href="/order" target="_blank" class="check-pay-list">查看订单详情</a></p>
                     <p></p>
                 </td>
                 <td>
-                    <p>辽宁 沈阳市 沈北新区 辽宁省 沈阳市 沈北新区蒲昌路19号 阳光经典大厦4楼兄弟连</p>
-                    <p>郝立聪&nbsp;&nbsp;15724353310</p>
+                    <p>{{$row['address']}}</p>
+                    <p>{{$row['name']}}&nbsp;&nbsp;{{$row['phone']}}</p>
                 </td>
                 <td>
                     <p>支付宝</p>
                 </td>
                 <td>
-                    <p class="pay-counts-p1">￥15.90</p>
+                    <p class="pay-counts-p1">￥{{$row['total']}}</p>
                     
                 </td>
             </tr>
+            @endforeach
         </table>
     </div>
     <input type="hidden" name="shareSkuImg" value="http://img10.hqbcdn.com/product/a1/92/a1927deb0cc5822e8bb2da1f474cf8ed.24.jpg"/>

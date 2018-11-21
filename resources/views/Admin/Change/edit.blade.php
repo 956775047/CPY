@@ -8,21 +8,18 @@
     <span>轮播图修改</span> 
    </div> 
    <div class="mws-panel-body no-padding"> 
-    <form class="mws-form" action="/change/{{$user->id}}" method="post" enctype="multipart/form-data"> 
-       @if (count($errors) > 0)
-        <div class="mws-form-message error">
-          <ul>
-         @foreach ($errors->all() as $error)
-         <li>{{ $error }}</li>
-         @endforeach
-         </ul>
-        </div>
-     @endif
+    <form class="mws-form" action="/change/{{$id}}" method="post" enctype="multipart/form-data"> 
       文件:<input type="file" name="pic" ><br>
+      类别：<select class="large" name="cate_id">
+          <option value="0">--请选择--</option>
+          @foreach($user as $row)
+          <option value="{{$row->id}}">{{$row->cate}}</option>
+          @endforeach
+        </select><br/><br/>
       状态：<select name="status">
-       
-              <option @if ('{{$user->status}}'=='1') selected  @endif>开启</option>
-              <option @if ('{{$user->status}}'=='0') selected  @endif>禁用</option>
+              <option>--请选择--</option>
+              <option value="1">开启</option>
+              <option value="0">禁用</option>
             </select>  
       <br/> 
       <br/>

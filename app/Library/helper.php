@@ -71,6 +71,8 @@ require_once("lib/alipay_submit.class.php");
         //商品描述，可空
         $body = $body;
 
+        
+
 
 
 
